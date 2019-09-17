@@ -2,9 +2,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2161f0de613c449dac77fbd77b8d9703)](https://www.codacy.com/app/alphagov/verify-frontend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alphagov/verify-frontend&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2161f0de613c449dac77fbd77b8d9703)](https://www.codacy.com/app/alphagov/verify-frontend?utm_source=github.com&utm_medium=referral&utm_content=alphagov/verify-frontend&utm_campaign=Badge_Coverage)
 
-# verify-frontend
+# verify-deutschified
 
-The frontend for GOV.UK Verify
+The frontend for GOV.UK Verify, deutschified as a quick example prototype for a similar identity proofing solution in Germany. Repo is cloned from https://github.com/alphagov/verify-frontend. Instructions below are from the original repo. 
 
 ## Installing the application
 
