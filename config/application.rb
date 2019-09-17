@@ -50,7 +50,7 @@ module VerifyFrontend
         "font-src 'self'; " +
         "img-src 'self' www.google-analytics.com; " +
         "connect-src 'self' www.google-analytics.com; " +
-        "object-src 'none'; " +
+        "object-src 'none'; "
         # the script digests are for the two inline scripts in govuk_template.gem:govuk_template.html.erb
         # if the scripts in that file change, or more are added, use a command similar to
         # this to generate the digests:
