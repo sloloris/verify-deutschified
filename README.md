@@ -6,6 +6,8 @@
 
 The frontend for GOV.UK Verify, deutschified as a quick example prototype for a similar identity proofing solution in Germany. Repo is cloned from https://github.com/alphagov/verify-frontend. Instructions below are from the original repo. 
 
+Embarrassingly hacky, please ignore all the crossover variable names. The goal is just a clickable flow with the correct colors & logos & localization
+
 ## Installing the application
 
 Once you’ve cloned this then `bundle` will install the requirements.
