@@ -17,7 +17,7 @@ gem 'autoprefixer-rails'
 gem 'uglifier', '~> 2.7.0'
 gem 'jquery-rails'
 
-gem 'govuk_template'
+gem 'bundde_template'
 gem 'govuk_frontend_toolkit'
 gem 'govuk_elements_rails'
 
