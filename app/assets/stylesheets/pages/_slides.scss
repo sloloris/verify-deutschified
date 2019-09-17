@@ -3,8 +3,8 @@
 
 .slides {
 
-  background-color: $mainstream-brand;
-  color: $white;
+  background-color: #e6f5f2;
+  color: #000000;
 
   margin-top: $gutter-half;
   margin-bottom: $gutter-half;
@@ -65,9 +65,9 @@
 
     .button {
       background: $white;
-      color: $mainstream-brand;
+      color: #ED697A;
       font-weight: bold;
-      box-shadow: 0 2px 0 darken($mainstream-brand, 15%);
+      box-shadow: 0 2px 0 darken(#ED697A, 15%);
     }
   }
 
@@ -90,7 +90,7 @@
 
   details {
     summary {
-      color: $white;
+      color: #000000;
     }
 
     .panel {
