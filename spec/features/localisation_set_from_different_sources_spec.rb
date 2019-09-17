@@ -32,7 +32,7 @@ RSpec.describe 'locale is set based on multiple sources', type: :feature do
     it 'will change the value of the locale cookie when the user changes from English to Welsh' do
       set_locale_cookie_to('en')
       expect(cookie_value(CookieNames::VERIFY_LOCALE)).to have_a_signed_value_of 'en'
-      first('.available-languages').click_link('Cymraeg')
+      first('.available-languages').click_link('Deutsch')
       expect(cookie_value(CookieNames::VERIFY_LOCALE)).to have_a_signed_value_of 'cy'
     end
   end

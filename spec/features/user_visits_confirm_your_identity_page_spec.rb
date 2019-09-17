@@ -139,7 +139,7 @@ RSpec.describe 'When the user visits the confirm-your-identity page' do
       stub_api_idp_list_for_sign_in
       stub_session_creation
       visit '/sign-in'
-      first('.available-languages').click_link('Cymraeg')
+      first('.available-languages').click_link('Deutsch')
       expect(page).to have_current_path('/mewngofnodi')
       click_button 'Ddewis Welsh IDCorp'
 
@@ -160,7 +160,7 @@ RSpec.describe 'When the user visits the confirm-your-identity page' do
 
       visit '/redirect-to-idp-warning'
 
-      first('.available-languages').click_link('Cymraeg')
+      first('.available-languages').click_link('Deutsch')
       expect(page).to have_current_path('/ailgyfeirio-i-rybudd-idp')
       click_button 'IDCorp'
 

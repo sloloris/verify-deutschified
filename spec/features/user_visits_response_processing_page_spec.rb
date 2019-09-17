@@ -10,7 +10,7 @@ RSpec.describe 'When the user visits the response processing page' do
   it 'does not show language links' do
     stub_matching_outcome
     visit '/response-processing'
-    expect(page).to_not have_link 'Cymraeg'
+    expect(page).to_not have_link 'Deutsch'
   end
 
   it 'should show the user the rp name and a spinner' do

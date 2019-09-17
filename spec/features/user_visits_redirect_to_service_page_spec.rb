@@ -55,7 +55,7 @@ RSpec.describe 'When the user visits the redirect to service page' do
 
     it 'does not show language links' do
       visit 'redirect-to-service/signing-in'
-      expect(page).to_not have_link 'Cymraeg'
+      expect(page).to_not have_link 'Deutsch'
     end
 
     it 'supports the welsh language for signing in' do
