@@ -1,85 +1,85 @@
 cy:
   routes:
-    start: start-de
-    prove_identity: identitaet-bestaetigen
-    prove_identity_retry: identitaet-bestaetigen-neu
-    begin_registration: registrierung-beginnen
-    begin_sign_in: beginnen-sign-in
-    about: about-de
-    sign_in: registrieren
-    about_certified_companies: about-zertifizierte-unternehmen
-    about_identity_accounts: about-identitaet-kontos
-    about_choosing_a_company: about-unternehmen-waehlen
-    select_documents: dokumente-waehlen
-    select_documents_none: dokument-waehlen-keins
-    other_identity_documents: anderes-identitaets-dokument
-    select_phone: telefon-waehlen
-    will_it_work_for_me: funktioniert-es-fuer-mich
-    verify_will_not_work_for_you: funktioniert-nicht-fuer-mich
-    may_not_work_if_you_live_overseas: funktioniert-ggf-nicht
-    why_might_this_not_work_for_me: warum-funktioniert-es-nicht-fuer-mich
-    will_not_work_without_uk_address: funktioniert-nicht-ohne-dtl-adresse
-    choose_a_country: land-waehlen
-    redirect_to_country: zum-land-redirect
-    choose_a_certified_company: ein-zertifiziertes-unternehmen-waehlen
-    why_companies: warum-unternehmen
-    unlikely_to_verify: unwahrscheinlich-bestaetigen
-    redirect_to_idp_warning: redirect-idp-warnung
-    redirect_to_idp_question: redirect-zu-idp-frage
-    redirect_to_single_idp: redirect-zu-single-idp
-    continue_to_your_idp: weiter-zu-deinem-idp
-    idp_wont_work_for_you_one_doc: idp-funktioniert-nicht-fuer-dich
-    privacy_notice: datenschutz
-    verify_services: bestaetigung-dienste
-    cookies: cookies-de
-    confirm_your_identity: identitaet-bestaetigen
-    confirmation: bestaetigung
-    confirmation_non_matching_journey: bestaetigung-redirect-zum-service
-    failed_registration: fehlgeschlagen-registrierung
-    failed_sign_in: fehlgeschlagen-anmeldung
-    failed_country_sign_in: fehlgeschlagen-land-anmeldung
-    failed_uplift: fehlgeschlagen-uplift
-    other_ways_to_access_service: andere-wege-zugang
-    forgot_company: vergessen-unternehmen
-    response_processing: antwort-verarbeiten
-    redirect_to_idp_sign_in: redirect-zu-idp/anmelden
-    redirect_to_idp_register: redirect-zu-idp/register
-    redirect_to_idp_resume: redirect-zu-idp/neu
-    redirect_to_service_signing_in: redirect-zu-service/log-in
-    redirect_to_service_start_again: redirect-zu-service/neustart
-    redirect_to_service_error: redirect-zu-service/fehler
-    feedback_landing: feedback-landing-de
-    feedback: feedback-de
-    feedback_sent: feedback/feedback-gesendet
-    further_information: weitere-information
-    further_information_timeout: weitere-information/timeout
-    further_information_cancel: weitere-information/abbrechen
-    further_information_null_attribute: weitere-information/null-attribute
-    no_idps_available: kein-idps-verfuegbar
-    cancelled_registration: abgebrochen-registrierung
-    select_proof_of_address: waehlen-adresse-verifizieren
-    confirming_it_is_you: bestaetigen-das-sind-sie
-    paused_registration: paused-de
-    resume_registration: fortfahren-registrierung
-    paused_registration_resume_link: paused-de/:idp
-    single_idp_start_page: single-start-deutsch/:transaction_simple_id
-    proxy_node_error: proxy-node-error-de
+    start: dechrau
+    prove_identity: profi-hunaniaeth
+    prove_identity_retry: profi-hunaniaeth-ailgeisio
+    begin_registration: dechrau-cofrestru
+    begin_sign_in: dechrau-mewngofnodi
+    about: am
+    sign_in: mewngofnodi
+    about_certified_companies: am-gwmniau-ardystiedig
+    about_identity_accounts: am-gyfrifon-hunaniaeth
+    about_choosing_a_company: am-ddewis-cwmni
+    select_documents: dewis-dogfennau
+    select_documents_none: dewis-dogfennau-dim
+    other_identity_documents: dogfennau-hunaniaeth-eraill
+    select_phone: dewis-ffon
+    will_it_work_for_me: a-fydd-yn-gweithio-i-mi
+    verify_will_not_work_for_you: ni-fydd-verify-yn-gweithio-i-chi
+    may_not_work_if_you_live_overseas: efallai-na-fydd-yn-gweithio-os-ydych-yn-byw-dramor
+    why_might_this_not_work_for_me: pam-efallai-na-fydd-hyn-yn-gweithio-i-mi
+    will_not_work_without_uk_address: ni-fydd-yn-gweithio-heb-gyfeiriad-yn-y-du
+    choose_a_country: dewiswch-wlad
+    redirect_to_country: ailgyfeirio-i-wlad
+    choose_a_certified_company: dewis-cwmni-ardystiedig
+    why_companies: pam-cwmniau
+    unlikely_to_verify: anhebygol-i-ddilysu
+    redirect_to_idp_warning: ailgyfeirio-i-rybudd-idp
+    redirect_to_idp_question: ailgyfeirio-i-gwestiwn-idp
+    redirect_to_single_idp: redirect-to-single-idp-cy
+    continue_to_your_idp: parhau-ich-idp
+    idp_wont_work_for_you_one_doc: nid-yw-idp-yn-gweithio-i-chi-un-ddogfen
+    privacy_notice: hysbysiad-preifatrwydd
+    verify_services: gwasanaethau-verify
+    cookies: cwcis
+    confirm_your_identity: cadarnhau-eich-hunaniaeth
+    confirmation: cadarnhad
+    confirmation_non_matching_journey: cadarnhad-ailgyfeirio-i-gwasanaeth
+    failed_registration: cofrestru-wedi-methu
+    failed_sign_in: mewngofnodi-wedi-methu
+    failed_country_sign_in: methu-mewngofnodi-gwlad
+    failed_uplift: methwyd-yr-ymgodiad
+    other_ways_to_access_service: ffyrdd-eraill-i-gael-mynediad-i'r-gwasanaeth
+    forgot_company: wedi-anghofio-cwmni
+    response_processing: prosesu-ymateb
+    redirect_to_idp_sign_in: ailgyfeirio-i-idp/mewngofnodi
+    redirect_to_idp_register: ailgyfeirio-i-idp/cofrestru
+    redirect_to_idp_resume: ailgyfeirio-i-idp/ailddechrau
+    redirect_to_service_signing_in: ailgyfeirio-i-gwasanaeth/mewngofnodi
+    redirect_to_service_start_again: ailgyfeirio-i-gwasanaeth/dechrau-eto
+    redirect_to_service_error: ailgyfeirio-i-gwasanaeth/gwall
+    feedback_landing: feedback-landing-cy
+    feedback: adborth
+    feedback_sent: adborth/adborth-wedi'i-anfon
+    further_information: gwybodaeth-bellach
+    further_information_timeout: gwybodaeth-bellach/timeout
+    further_information_cancel: gwybodaeth-bellach/dileu
+    further_information_null_attribute: gwybodaeth-bellach/null-attribute
+    no_idps_available: dim-idps-ar-gael
+    cancelled_registration: cofrestru-wedi-ganslo
+    select_proof_of_address: tystiolaeth-o'ch-cyfeiriad
+    confirming_it_is_you: cadarnhau-mai-chi-ydyw
+    paused_registration: wedi-oedi
+    resume_registration: ail-ddechrau-cofrestru
+    paused_registration_resume_link: wedi-oedi/:idp
+    single_idp_start_page: single-start-welsh/:transaction_simple_id
+    proxy_node_error: proxy-node-error-cy
   common:
-    logo: "%{name} logo"
+    logo: "logo %{name}"
   title:
-    error: Fehler
+    error: Gwall
   navigation:
-    next: Weiter
-    start_now: Jetzt starten
-    continue: Weiter
-    back: Zurueck
+    next: Nesaf
+    start_now: Dechreuwch nawr
+    continue: Parhau
+    back: Yn ôl
   option:
-    "no": "Nein"
-    "yes": "Ja"
-    unknown: Weiss ich nicht
+    "no": "Na"
+    "yes": "Oes"
+    unknown: Ddim yn gwybod
   cookie_message:
-    message: BUND Verify verwendet Cookies, um diese Webseite schneller, nutzerfreundlicher und einfacher zu machen.
-    link: Mehr Informationen zu Cookies
+    message: Mae GOV.UK Verify yn defnyddio cwcis i wneud y safle'n symlach.
+    link: Darganfyddwch fwy am gwcis
   feedback_link:
     message: Defnyddiwch y %{href} i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant
     feedback_form: ffurflen adborth
