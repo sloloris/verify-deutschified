@@ -72,116 +72,121 @@ cy:
     next: Weiter
     start_now: Jetzt starten
     continue: Weiter
-    back: Zurueck
+    back: Zurück
   option:
     "no": "Nein"
     "yes": "Ja"
-    unknown: Weiss ich nicht
+    unknown: Weiß ich nicht
   cookie_message:
     message: BUND Verify verwendet Cookies, um diese Webseite schneller, nutzerfreundlicher und einfacher zu machen.
     link: Mehr Informationen zu Cookies
   feedback_link:
-    message: Defnyddiwch y %{href} i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant
-    feedback_form: ffurflen adborth
+    message: Nutzen Sie %{href}, um Fragen zu stellen, Probleme zu melden und Verbesserungen zu anzuregen.
+    feedback_form: Feedback geben
     id: feedback_link_id
-  translation_in_progress_banner:
-    message: Mae GOV.UK Verify wrthi’n cael ei gyfieithu i’r Gymraeg. Rydym yn cyfieithu tudalennau bob wythnos rhwng nawr a diwedd mis Ebrill. Mae eich %{feedback_link} yn ein helpu i wella’r cyfieithiad.
-    feedback: adborth
   footer:
-    support_links: Dolenni cymorth
-    help: Help
-    built_by_the: Adeiladwyd gan yr
+    support_links: Link unterstützen
+    help: Hilfe
+    built_by_the: Powered by ISA
   hub:
-    other_ways_title: Ffyrdd eraill i gael mynediad i’r gwasanaeth
-    other_ways_heading: Ffyrdd eraill i %{other_ways_description}
+    other_ways_title: Andere Wege zur Leistung
+    other_ways_heading: Andere Wege zu %{other_ways_description}
     choose_a_country:
-      title: Dewiswch wlad
-      heading: Defnyddio hunaniaeth digidol o wlad Ewropeaidd arall
-      description: Gallwch ddefnyddio hunaniaeth digidol o wlad Ewropeaidd arall i gael mynediad i wasanaethau ar GOV.UK.
-      country_not_listed_heading: Nid yw fy ngwlad wedi'i restru
-      country_not_listed_description: Os nad yw eich cwmni wedi ymuno eto, mae
-      country_not_listed_link: ffyrdd eraill i %{other_ways_description}.
-      select_label: "Dewis %{scheme_name}"
+      title: Land wählen
+      heading: Digitale Identitäten in Europa
+      description: Sie können eine digitale Identität eines anderen europäischen Landes nutzen, um Leistungen auf bund.de in Anspruch zu nehmen.
+      country_not_listed_heading: Mein Land ist nicht dabei
+      country_not_listed_description: "Wenn ihr Land noch nicht dabei ist, gibt es "
+      country_not_listed_link: andere Wege %{other_ways_description}.
+      select_label: "Wählen %{scheme_name}"
     redirect_to_country:
-      title: Ailgyfeirio i wlad
-      heading: Mynd ymlaen i’r cam nesaf
-      description: Oherwydd nad yw Javascript wedi’i alluogi ar eich porwr, mae’n rhaid i chi bwyso’r botwm parhau
+      title: Zum anderen Land
+      heading: Zum nächsten Schritt
+      description: Da Javascript in Ihrem Browser nicht aktiviert ist, klicken Sie bitte auf weiter. 
     prove_identity:
-      title: Profwch eich hunaniaeth i barhau
-      heading: Profwch eich hunaniaeth i barhau
-      header_content: Dewiswch sut rydych eisiau profi eich hunaniaeth er mwyn i chi allu
+      title: Identität bestätigen
+      heading: Um fortzufahren, müssen Sie Ihre Identität bestätigen
+      header_content: Wählen Sie wie Sie Ihre Identität bestätigen möchten?
       use_verify:
-        heading: Defnyddiwch GOV.UK Verify
+        heading: BUND Verify verwenden
         content_html: |
-          <p>Mae cofrestru gyda GOV.UK Verify fel arfer yn cymryd tua 15 munud. Mae'n gweithio orau os oes gennych:</p>
+          <p>Die Registrierung mit BUND Verify dauert ungefährt 15 Minuten. Es klappt am besten, wenn Sie folgendes zur Hand haben:</p>
           <ul class="list-bullet list">
-            <li>cyfeiriad yn y DU</li>
-            <li>pasport neu drwydded gyrru gyda llun dilys</li>
+            <li>Deutsche Meldeadresse</li>
+            <li>Ausweis, Reisepass oder Führerschein</li>
           </ul>
-          <p>Bydd darparwr hunaniaeth ardystiedig yn gwirio eich hunaniaeth pan fyddwch yn cofrestru gyda GOV.UK Verify. Maent i gyd wedi cwrdd â safonnau diogewlch a osodwyd gan y llywodraeth.</p>
-        button_text: Defnyddiwch GOV.UK Verify
+          <p>bei der Nutzung von BUND verify wird ein zertifizierter Identitätsdienst Ihre Identität prüfen.</p>
+        button_text: Use GOV.UK Verify
       use_eidas:
-        heading: Defnyddiwch hunaniaeth digidol o wlad Ewropeaidd arall
+        heading: Digitale Identität eines anderen europäischen Landes verwenden
         content_html: |
-          <p>Os ydych yn rhan o gynllun ID mewn gwlad sy'n cymryd rhan, efallai y gallwch ei ddefnyddio yma.</p>
-        button_text: Dewiswch eich hunaniaeth digidol Ewropeaidd
+          <p>Wenn Sie eine digitale Identität in Italien oder Österreich besitzen, können Sie diese hier nutzen.</p>
+        button_text: Europäische digitale Identität wählen
     start:
-      title: Dechrau
-      heading: Mewngofnodi gyda GOV.UK Verify
-      answer_yes: Dyma’r tro cyntaf i mi ddefnyddio Verify
-      answer_no: Rwyf wedi defnyddio Verify o’r blaen
-      continue: Parhau
-      error_message: Dewiswch opsiwn
+      title: Start
+      heading: Anmelden mit BUND Verify
+      answer_yes: Ich nutze BUND Verify zum ersten Mal
+      answer_no: Ich habe BUND Verify schon zuvor genutzt
+      continue: Weiter
+      error_message: Wählen Sie ein Option
     signin:
-      title: Mewngofnodi gyda chwmni ardystiedig
-      heading: Gyda phwy mae gennych gyfrif hunaniaeth?
-      back: Yn ôl
-      about_link: Dechreuwch nawr
-      registration_message_html: Os nad oes gennych gyfrif hunaniaeth, gallwch %{href}.
-      last_certified: "Y cwmni ardystiedig diwethaf a ddefnyddiwyd ar y ddyfais hon oedd %{company_name}"
-      any_certified_company: "Gallwch ddefnyddio cyfrif hunaniaeth a sefydlwyd gennych gydag unrhyw un o'r cwmnïau hyn:"
-      select_idp: Ddewis %{display_name}
-      sign_in_idp: Llofnodi i mewn gyda %{display_name}
-      forgot_company: Ni allaf gofio pa gwmni wnaeth fy nilysu
-      company_no_longer_verifies_title: "Nid yw %{company} bellach yn rhan o GOV.UK Verify"
-      company_no_longer_verifies_text: Os oes gennych gyfrif hunaniaeth gyda %{company}, bydd angen i chi o %{link}.
-      company_no_longer_verifies_link: dilysu eich hunaniaeth gyda chwmni arall
+      title: Zertifiziertes Unternehmen
+      heading: Wo haben Sie bereits eine digitale Identität?
+      back: Zurück
+      about_link: Neue digitale Identität anlegen
+      registration_message_html: Wenn Sie keine digitale Identität haben, können Sie %{href}.
+      last_certified: Das zuletzt für diese Leistung verwendete zertifizierte Unternehmen war %{company_name}.
+      any_certified_company: "Sie können eine Ihrer digitale Identität bei diesen Unternehmen verwenden:"
+      select_idp: Wähle %{display_name}
+      sign_in_idp: Mit %{display_name} anmelden
+      forgot_company: Ich weiß nicht mehr, welche Unternehmen meine Identität schon bestätigt haben
+      company_no_longer_verifies_title: "%{company} ist nicht mehr bei BUND Verify"
+      company_no_longer_verifies_text: Wenn Sie eine digitale Identität bei %{company} haben, müssen Sie %{link}.
+      company_no_longer_verifies_link: Identität mit anderem Unternehmen bestätigen
     cookies:
-      title: Cwcis
+      title: Cookies
     privacy_notice:
-      title: Hysbysiad preifatrwydd
+      title: Datenschutz
     verify_services:
-      title: Gwasanaethau Verify
-      heading: GOV.UK Verify
-      message: "Mae GOV.UK Verify yn newydd ac mae gwasanaethau’r llywodraeth yn ymuno drwy’r amser. Y gwasanaethau presennol sy’n defnyddio Verify yw:"
+      title: Identitätsdienste
+      heading: BUND Verify
+      message: "Leistungen die mit BUND Verify in Anspruch genommen werden können:"
     transaction_list:
-      title: Dod o hyd i’r gwasanaeth rydych yn ei ddefnyddio i ddechrau eto
-      hint: Dilynnwch y cyfarwyddiadau rydych wedi’u derbyn.
-      other_services: Gwasanaethau eraill
+      title: Genutzte Dienste suchen und neustarten
+      hint: Folgen Sie den Schritten in der Anleitung.
+      other_services: Andere Dienste
     about:
-      title: Am
-      verify_is_a_service: Mae GOV.UK Verify yn wasanaeth diogel a adeiladwyd i frwydro yn erbyn y broblem gynyddol o ddwyn hunaniaeth ar-lein.
+      title: About
+      verify_is_a_service: BUND Verfiy ist ein sicherer Weg,Identitäten online zu bestätigen. Ziel ist es, Bürgerinnen und Bürger vor Idenitätsdiebstahl zu schützen.
     about_certified_companies:
-      title: Am gwmnïau ardystiedig
-      a_certified_company_will_verify: Bydd cwmni ardystiedig yn gwirio eich hunaniaeth. Maent i gyd wedi bodloni safonau diogelwch a osodir gan y llywodraeth.
-      dont_need_to_be_existing_customer: Nid oes angen i chi fod yn gwsmer presennol gyda chwmni oherwydd maent wedi adeiladu systemau newydd, diogel i ddilysu hunaniaeth.
-      a_certified_company_will_verify_security: Rydych yn dewis o restr o gwmnïau ardystiedig i ddilysu eich hunaniaeth. Maent i gyd wedi cwrdd â safonnau diogelwch a osodwyd gan y llywodraeth.
-      a_certified_company_will_verify_security_start: Rydych yn dechrau drwy ddewis cwmni i ddilysu eich hunaniaeth. Mae’r cwmnïau rydych yn dewis ohonnynt wedi cwrdd â safonnau diogelwch a osodwyd gan y llywodraeth.
-      ensure_privacy: Nid yw’r cwmni ardystiedig yn gwybod pa wasanaeth o’r llywodraeth rydych yn ei ddefnyddio ac nid yw’r adran o’r llywodraeth yn gwybod pa gwmni wnaeth ddilysu eich hunaniaeth. Mae hyn yn sicrhau eich preifatrwydd.
-      no_charge: Nid oes tâl am y gwasanaeth hwn.
-      summary: Sut y gall cwmnïau wirio hunaniaeth
+      title: Über zertifizierte Unternehmen
+      a_certified_company_will_verify: Ein staatlich zertifiziertes Unternehmen bestätigt Ihre Identität. 
+      dont_need_to_be_existing_customer: Sie müssen noch kein Kunde bei diesen Unternehmen sein, um identifiziert werden zu können.
+      a_certified_company_will_verify_security: Wählen Sie ein zertifizierte Organisation.
+      a_certified_company_will_verify_security_start: Wählen Sie zum Start ein zertifizierte Organisation aus.
+      ensure_privacy: Die zertifizierte Organisation, die Ihre Identität bestätigt, wird nicht darüber informiert welche staatlichen Dienstleistungen Sie in Anspruch nehmen. Gleichzeitig wissen staatliche Stellen nicht, über welche Organisation Sie sich identifiziert haben.
+      no_charge: BUND Verify ist kostenlos.
+      summary: Wie bestätigen Organisationen Ihre Identität
       details_html: |
-        <p>Gall y cwmnïau hyn ddefnyddio eu data eu hunain, a gallant gael mynediad at ddata fel cofnodion credyd. Maent yn gallu gwirio bod gwybodaeth o basbortau a thrwyddedau gyrru yn gywir.</p>
-        <p>Mae cwmnïau ardystiedig yn bodloni safonau preifatrwydd y llywodraeth, felly gallwch ymddiried ynddynt gyda’ch gwybodaeth bersonol. Ni fyddant yn rhannu neu werthu eich data at unrhyw ddibenion eraill heb eich caniatâd.</p>
-        <p>Ni fydd unrhyw effaith ar eich sgôr credyd.</p>
-        <p>Mae mwy nag un cwmni ardystiedig yn golygu eich bod chi’n dewis pwy sy’n dilysu eich hunaniaeth, ac mae’n golygu bod y system yn ei gyfanrwydd yn gryfach.</p>
+        <p>Diese Organisationen prüfen, ob es wirklich Sie sind durch eigene Daten oder durch Zugriff auf weitere Informationen wie Bank-, Ausweis-, Reise- oder Führerscheindaten.</p>
+        <p>Diese Organisation erfüllen die staatlichen Sicherheitsstandards. Sie können Ihre Daten nicht ohne Ihre Einveständnis an Dritte weitergeben oder verkaufen.</p>
+        <p>Ihre Bonität wird durch die Identitätsprüfung nicht beeinflusst.</p>
+        <p>Es gibt mehr als eine Organisation:</p>
+        <ul class="list list-bullet">
+          <li>Sie wählen, welche Organisation Sie verifiziert</li>
+          <li>Die Daten sind nciht zentral gespeichert</li>
+        </ul>
       loa1_details_html: |
-        <p>Gall y cwmnïau hyn ddefnyddio eu data eu hunain, a gallant gael mynediad at ddata fel cofnodion credyd.</p>
-        <p>Ni fydd unrhyw effaith ar eich sgôr credyd.</p>
-        <p>Mae cwmnïau ardystiedig yn bodloni safonau preifatrwydd y llywodraeth, felly gallwch ymddiried ynddynt gyda’ch gwybodaeth bersonol. Ni fyddant yn rhannu neu werthu eich data at unrhyw ddibenion eraill heb eich caniatâd.</p>
-        <p>Mae mwy nag un cwmni ardystiedig yn golygu eich bod chi’n dewis pwy sy’n dilysu eich hunaniaeth, ac mae’n golygu bod y system yn ei gyfanrwydd yn gryfach.</p>
+        <p>Diese Organisationen prüfen, ob es wirklich Sie sind durch eigene Daten oder durch Zugriff auf weitere Informationen wie Bank-, Ausweis-, Reise- oder Führerscheindaten.</p>
+        <p>Diese Organisation erfüllen die staatlichen Sicherheitsstandards. Sie können Ihre Daten nicht ohne Ihre Einveständnis an Dritte weitergeben oder verkaufen.</p>
+        <p>Ihre Bonität wird durch die Identitätsprüfung nicht beeinflusst.</p>
+        <p>Es gibt mehr als eine Organisation:</p>
+        <ul class="list list-bullet">
+          <li>Sie wählen, welche Organisation Sie verifiziert</li>
+          <li>Die Daten sind nciht zentral gespeichert</li>
+        </ul>
     about_identity_accounts:
-      title: Am gyfrifon hunaniaeth
+      title: Über digitale Identitäten
       content_html: |
         <p>Mae dilysu eich hunaniaeth yn cymryd tua 15 munud i'w gwblhau, ond dim ond unwaith mae angen i chi ei wneud.</p>
         <p>Yna bydd gennych gyfrif hunaniaeth gyda'r cwmni ardystiedig.</p>
