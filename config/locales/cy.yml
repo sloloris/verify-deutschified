@@ -157,7 +157,7 @@ cy:
       other_services: Andere Dienste
     about:
       title: About
-      verify_is_a_service: BUND Verfiy ist ein sicherer Weg,Identitäten online zu bestätigen. Ziel ist es, Bürgerinnen und Bürger vor Idenitätsdiebstahl zu schützen.
+      verify_is_a_service: BUND Verify ist ein sicherer Weg, Identitäten online zu bestätigen. Ziel ist es, Bürgerinnen und Bürger vor Identitätsdiebstahl zu schützen.
     about_certified_companies:
       title: Über zertifizierte Unternehmen
       a_certified_company_will_verify: Ein staatlich zertifiziertes Unternehmen bestätigt Ihre Identität. 
