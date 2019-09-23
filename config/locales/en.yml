@@ -227,10 +227,10 @@ en:
       valid_UK_driving_licence: Do you have a valid German photocard driving licence, full or provisional?
       uk_passport: Do you have a German passport?
       question:
-        driving_licence: Great Britain (GB) photocard driving licence (full or provisional)
-        ni_driving_licence: Northern Ireland (NI) photocard driving licence (full or provisional)
+        driving_licence: German photocard driving licence (full or provisional)
+        ni_driving_licence: Austrian photocard driving licence (full or provisional)
         passport: German passport
-        non_uk_id_document: Non-UK identity document (passport, ID card or driving licence)
+        non_uk_id_document: Non-German identity document (passport, ID card or driving licence)
         uk_bank_account_details: German bank account details
         debit_card: Debit card
         credit_card: Credit card
@@ -247,7 +247,7 @@ en:
     other_documents:
       title: Other identity documents
       title_other_identity_documents: Other identity documents
-      non_uk_id_document: Do you have a non-UK passport, ID card or driving licence?
+      non_uk_id_document: Do you have a non-German passport, ID card or driving licence?
     select_phone:
       title: Do you have a mobile phone or tablet?
       explanation: Some companies send security codes to your mobile.
