@@ -186,181 +186,175 @@ cy:
           <li>Die Daten sind nciht zentral gespeichert</li>
         </ul>
     about_identity_accounts:
-      title: Über digitale Identitäten
+      title: Über digtale Identitäten
       content_html: |
-        <p>Mae dilysu eich hunaniaeth yn cymryd tua 15 munud i'w gwblhau, ond dim ond unwaith mae angen i chi ei wneud.</p>
-        <p>Yna bydd gennych gyfrif hunaniaeth gyda'r cwmni ardystiedig.</p>
-        <p>Yna gallwch gael mynediad i wasanaethau eraill y llywodraeth mewn llai na munud lle bynnag y byddwch yn gweld y logo BUND Verify.</p>
+        <p>Verifying your identity takes about 15 minutes, but you only have to do it once.</p>
+        <p>You’ll then have an identity account with the company you choose.</p>
+        <p>You can then access other government services in less than 1 minute wherever you see the GOV.UK Verify logo.</p>
       content_loa1_html: |
-        <p>Mae dilysu eich hunaniaeth yn cymryd tua 5 munud i'w gwblhau.</p>
-        <p>Yna bydd gennych gyfrif hunaniaeth gyda'r cwmni ardystiedig.</p>
-        <p>Gallwch ddefnyddio'r cyfrif hunaniaeth hwn i gael mynediad i wasanaethau eraill y llywodraeth ble bynnag rydych yn gweld y logo BUND Verify.</p>
-      summary: Ble allwch chi ddefnyddio eich cyfrif hunaniaeth
+        <p>Verifying your identity takes about 5 minutes to complete.</p>
+        <p>You’ll then have an identity account with the certified company.</p>
+        <p>You can use this identity account to access other government services wherever you see the GOV.UK Verify logo.</p>
+      summary: Wo können Sie Ihre digitalen Identiäten verwenden
       details_loa1_html: |
-        <p>Mae BUND Verify yn newydd ac mae gwasanaethau'r llywodraeth yn ymuno drwy'r amser.</p>
-        <p>Gallwch ddefnyddio eich cyfrif hunaniaeth i gael mynediad i:</p>
-      details: "Mae BUND Verify yn newydd ac mae gwasanaethau’r llywodraeth yn ymuno drwy’r amser. Y gwasanaethau presennol sy’n defnyddio Verify yw:"
-      details_loa1_uplift_list: "Pan fyddwch yn defnyddio'r gwasanaethau llywodraeth hyn, bydd gofyn i chi ddarparu mwy o dystiolaeth gan fod angen i'r gwasanaethau hyn fod yn hyderus nad yw rhywun arall yn defnyddio eich hunaniaeth: "
+        <p>GOV.UK Verify is new, and government services are joining all the time.</p>
+        <p>You can use your identity account to access:</p>
+      details: "The current services using GOV.UK Verify are:"
+      details_loa1_uplift_list: "Wenn Sie staatliche Leistungen in Anspruch nehmen, muss Ihre Identität festegestellt werden:"
       navigation:
-        start_now: Dechrau nawr
+        start_now: Jetzt starten
     about_choosing_a_company:
-      title: Am ddewis cwmni
-      heading: Dod o hyd i’r cwmni iawn i’ch dilysu chi
+      title: Über Organisation wählen
+      heading: Sie richtige Organisation finden
       content_html: |
-        <p>Mae cwmnïau ardystiedig wedi adeiladu systemau newydd, diogel i ddilysu hunaniaeth. Mae'r systemau hyn yn gweithio trwy wirio:</p>
+        <p>Diese Organisationen haben sichere Verfahren, um Identitäten digital zu bestätigen. Die Verfahren basieren auf der Verifikation von:</p>
         <ul class="list-bullet list">
-        <li>bod eich dogfennau hunaniaeth yn ddilys</li>
-        <li>mai chi sy'n darparu eich manylion, dim rhywun sy'n honni bod yn chi</li>
+        <li>Ausweis-, Reisepass- und Führerscheindokumente</li>
+        <li>Datenabgleich</li>
         </ul>
-        <p>Fodd bynnag, mae gan bob cwmni ddulliau gwahanol ar gyfer pob un o'r camau hyn.</p>
-        <p>Felly byddwn nawr yn gofyn rhai cwestiynau i chi wirio pa gwmnïau all eich dilysu. Byddwn wedyn yn eich anfon at wefan y cwmni rydych yn ei ddewis.</p>
+        <p>Jede Organisation nutzt unterschiedliche Vorgehensweisen.</p>
+        <p>Hier sind einige Fragen, um festzulegen, welche Organisation Ihre Identität am besten bestätigen kann. Sie werden dann zur Webseite der richtigen Organisation weitergeleitet.</p>
     select_documents:
-      title: Dewiswch yr holl ddogfennau sydd gennych
-      title_photo_documents: Eich dogfennau hunaniaeth gyda llun
-      explanation: Mae cwmnïau ardystiedig yn defnyddio gwybodaeth o wahanol ddogfennau hunaniaeth i’ch dilysu.
-      sub_heading: Mae cwmniau ardystiedig yn defnyddio gwybodaeth o ddogfennau hunaniaeth i'ch dilysu.
-      documents_from_other_countries: Mae rhai cwmniau ardystiedig yn gallu defnyddio dogfennau hunaniaeth o wledydd eraill i'ch dilysu
-      no_documents_message: Mae eich dewisiadau dogfennau wedi cael eu gosod i ‘na’.
-      legend: Ydy’r dogfennau hyn gyda chi?
-      highlight: Y mwyaf o ddogfennau hunaniaeth y gallwch eu darparu, y mwyaf tebygol yw y bydd y cwmni yn gallu eich dilysu'n llwyddiannus.
-      documents_option_yes: Oes
-      documents_option_yes_expired: Oes, ond mae wedi dod i ben
-      valid_UK_driving_licence: Oes gennych chi drwydded yrru y DU gyda llun, llawn neu dros dro dilys?
-      uk_passport: Oes gennych chi basport y DU?
+      title: Welche Dokumente haben Sie zur Hand?
+      title_photo_documents: Lichtbildausweis und andere hoheitliche Dokumente
+      explanation: Zertifizierte Organisationen greifen bei der Verifizierung auf diese Dokumente zurück.
+      documents_from_other_countries: Manche Organisationen können hoheitliche Dokumente von Drittstaaten nutzen.
+      no_documents_message: Your document choices have been set to ‘no’.
+      legend: Haben Sie diese Dokumente zur Hand?
+      highlight: Je mehr Dokumente Sie vorlegen können, desto höher die Wahrscheinlichkeit, dass Sie durch eine zertifizierte Organisation erfolgreich verifiziert werden können.
+      documents_option_yes: 'Ja'
+      documents_option_yes_expired: Ja, allerdings abgelaufen
+      valid_UK_driving_licence: Haben Sie Ihren Führerschein zur Hand?
+      uk_passport: Haben Sie Ihren Reisepass zur Hand?
       question:
-        driving_licence: Trwydded yrru Prydain Fawr (GB) gyda llun (llawn neu dros dro)
-        ni_driving_licence: Trwydded yrru Gogledd Iwerddon (NI) gyda llun (llawn neu dros dro)
-        passport: Pasport y DU
-        non_uk_id_document: Dogfen hunaniaeth sydd ddim o'r DU (pasbort, cerdyn ID neu trwydded yrru)
-        uk_bank_account_details: Manylion cyfrif banc y DU
-        debit_card: Cerdyn debyd
-        credit_card: Cerdyn credyd
-        no_documents: Nid oes gennyf y dogfennau hyn gyda mi
+        driving_licence: Führerschein
+        ni_driving_licence: Vorläufiger Führerschein
+        passport: Reisepass
+        non_uk_id_document: Identitätsdokument eines Drittstaats (Ausweis, Reisepass, Führerschein)
+        uk_bank_account_details: Bankkonto-Daten
+        debit_card: EC Karte
+        credit_card: Kreditkarte
+        no_documents: Ich habe keines der Dokumente zur Hand. 
       errors:
-        no_selection: Dewiswch y dogfennau sydd gennych
-        invalid_selection: Edrychwch dros eich dewis
-        no_driving_licence_selection: Dewiswch y drwydded yrru sydd gennych
-      neither_documents: Nid yw'r un o'r dogfennau hyn gennyf
-      where_driving_licence_issued: Ble cyhoeddwyd eich trwydded yrru?
+        no_selection: Welche Dokumente haben Sie zur Hand?
+        invalid_selection: Bitte prüfen Sie Ihre Auswahl
+        no_driving_licence_selection: Welchen Führerschein haben Sie?
+      neither_documents: Ich habe keines der Dokumente zur Hand. 
+      where_driving_licence_issued: Wo wurde Ihr Führerschein ausgestellt?
       driving_licence_details:
-        great_britain: Prydain Fawr
-        northern_ireland: Gogledd Iwerddon
+        great_britain: Deutschland
+        northern_ireland: Europäisches Ausland
     other_documents:
-      title_other_identity_documents: Dogfennau hunaniaeth eraill
-      non_uk_id_document: Oes gennych chi pasbort sydd ddim yn un o'r DU, cerdyn ID neu drwydded yrru?
+      title: Andere Identitätsdokumente
+      title_other_identity_documents: Andere Identitätsdokumente
+      non_uk_id_document: Haben Sie einen Ausweis, Reisepass oder Führerschein eines Drittstaats?
     select_phone:
-      title: Oes gennych ffôn symudol neu lechen?
-      explanation: Gall cwmnïau ardystiedig anfon codau diogelwch i’ch ffôn symudol.
+      title: Haben Sie ein Smartphone oder ein Tablet?
+      explanation: Einige Organisationen senden Zahlencodes auf Ihre Mobilgerät.
       question:
-        mobile_phone: Oes gennych ffôn symudol neu lechen?
-        mobile_phone_option_yes: Oes
-        mobile_phone_option_reluctant_yes: Gallaf, ond mae'n well gennyf beidio
-        smart_phone: Allwch chi osod apps ar eich dyfais?
-        smart_phone_option_yes: Gallaf
-        smart_phone_subtitle: Mae rhai cwmnïau ardystiedig yn gofyn i chi lawrlwytho app am ddim a defnyddio camera eich ffôn fel rhan o ddilysu eich hunaniaeth.
+        mobile_phone: Haben Sie ein Smartphone oder ein Tablet?
+        mobile_phone_option_yes: 'Ja'
+        mobile_phone_option_reluctant_yes: "Ja, haben aber keine Lust darauf"
+        smart_phone: Können Sie Apps auf Ihr Mobilgerät installieren?
+        smart_phone_option_yes: 'Ja'
+        smart_phone_subtitle: "Bei einigen Organisationen müssen Sie für die Verifizierung eine kostenlos App herunterladen oder die Kamera des Smartphones verwenden."
       errors:
-        no_selection: Dylech ateb pob cwestiwn
-        invalid_selection: Dylech edrych dros eich dewis
+        no_selection: Bitte beantworten Sie alle Fragen
+        invalid_selection: Bitte überprüfen Sie Ihre Auswahl
     will_it_work_for_me:
-      title: Allai i gael fy nilysu?
-      heading: Amdanoch chi
+      title: Kann meine Identität bestätigt werden?
+      heading: Über dich
       question:
-        option_yes: Ydw
-        above_age_threshold: Ydych chi’n 20 oed neu drosodd?
-        resident_last_12_months: Ydych chi wedi byw yn y DU am y 12 mis diwethaf?
+        option_yes: 'Ja'
+        above_age_threshold: Sind Sie älter als 20?
+        resident_last_12_months: Haben Sie in den letzten 12 Monaten dauerhaft in Deutschland gelebt?
         not_resident_reason:
-          title: Pa un o’r rhain sy’n berthnasol i chi?
-          recently: Rwyf wedi symud i’r DU yn y 12 mis diwethaf
-          not_resident: Mae gennyf gyfeiriad yn y DU ond nid wyf yn byw yno
-          no_address: Nid oes gennyf gyfeiriad yn y DU
+          title: Welche Aussage trifft auf Sie zu?
+          recently: Ich bin in den letzten 12 Monaten nach Deutschland gezogen
+          not_resident: Ich habe eine Meldeadresse in Deutschland, wohne dort aber aktuell nicht
+          no_address: Ich habe keine Adresse in Deutschland
         errors:
-          no_selection: Dylech ateb pob cwestiwn
+          no_selection: Bitte beantworten Sie alle Fragen
     idp_wont_work_for_you_one_doc:
-      title: Ni all %{idp_name} cadarnhau pwy ydych chi
-      heading: Ni all %{idp_name} cadarnhau pwy ydych chi
-      choose_another_company: Mae'n rhaid i chi ddewis cwmni ardystiedig wahanol i wirio eich hunaniaeth.
-      choose_another_certified_company_link: Dewiswch gwmni arall
+      title: "%{idp_name} kann Ihre Identität nicht bestätigen"
+      heading: "%{idp_name} kann Ihre Identität nicht bestätigen"
+      choose_another_company: Sie müssen eine andere zertifizierte Organisation wählen.
+      choose_another_certified_company_link: Andere Organisation wählen
     verify_will_not_work_for_you:
-      heading: Ni fydd BUND Verify yn gweithio i chi
+      heading: BUND Verify ist für Sie nicht verfügbar.
       content_html: |
-        <p>Yn seiliedig ar eich atebion, nid oes unrhyw un o'r darparwyr hunaniaeth (a elwir hefyd yn gwmnïau ardystiedig) sy'n gweithio gyda BUND Verify yn gallu cadarnhau'ch hunaniaeth.</p>
+        <p>Auf Basis Ihrer Angaben ist kein privater Identitätsdienst verfügbar, der Sie identifizieren kann.</p>
     may_not_work_if_you_live_overseas:
-      title: Efallai na fyddwch yn gallu cael eich hunaniaeth wedi’i ddilysu
-      heading: Efallai na fyddwch yn gallu cael eich hunaniaeth wedi’i ddilysu
-      try_to_verify: Hoffwn roi cynnig ar ddilysu fy hunaniaeth ar-lein
-      explanation1: I ddilysu hunaniaeth, mae cwmnïau ardystiedig yn cael mynediad i gofnodion credyd ac yna gallant ofyn i chi gadarnhau’r wybodaeth hyn. Mae gan y mwyfrif o bobl sy’n byw y tu allan i’r DU hanes gweithgaredd cyfyngedig ar eu cofnod credyd y DU, felly efallai na fydd cwmnïau yn gallu gwirio eich hunaniaeth yn y ffordd hyn.
-      explanation2: Mae eich ‘hanes gweithgaredd’ yn cynnwys pa mor aml rydych yn defnyddio eich cyfrifon credyd, ac os ydych yn agor cyfrifon fel morgais, gorddrafft neu fenthyciad.
-      what_youll_need: Beth fyddwch ei angen
-      if_you_have_these: Efallai y gall eich hunaniaeth gael ei ddilysu os ydych wedi defnyddio o leiaf 1 o gyfrifon y DU canlynol yn rheolaidd dros y 6 mis diwethaf
-      current_account_overdraft: gorddrafft cyfrif cyfredol
-      credit_card: cerdyn credyd
-      phone_contract: cytundeb ffôn symudol neu linell daear
-      gas_electricity_bills: biliau nwy neu drydan
-      mortgage: morgais
-      student_loan: benthyciad myfyriwr
-      payday_loan: benthyciad diwrnod cyflog
-      mail_order_account: cyfrif archebu drwy’r post
-      youll_also_need: Byddwch hefyd angen pasport y DU neu drwydded yrru’r DU.
+      title: Sie können vielleicht nicht identifiziert werden
+      heading: Es könnte sein, dass Ihre Identität nicht verfiziert werden kann
+      try_to_verify: Ich möchte meine Identität durch BUND Verfy verifizieren lassen
+      explanation1: Um Ihre Identität zu verifizieren, greifen diese Organisation auf Ihre Kontodaten zu. Wenn Sie außerhalb der Bundesrepublik Deutschland leben und wenige Aktionen auf Ihrem Bankkonto stattfindet, funktioniert diese Verfizierungsmethode u.U. nicht.
+      explanation2: Zu Aktionen auf Ihrem Bankkonto zählen Überweisungen, Zahlungsein- und ausgänge sowie Kredite.
+      what_youll_need: Was Sie dafür brauchen
+      if_you_have_these: Ihre Identität kann bestätigt werden, wenn Sie eine der folgenden Bank in den letzten 6 Monaten regelmäßig genutzt haben
+      current_account_overdraft: Aktuelles Dispo
+      credit_card: Kreditkarte
+      phone_contract: Telefonnummer
+      gas_electricity_bills: Stromrechnung
+      mortgage: Hypothek 
+      student_loan: Studienkredit
+      payday_loan: Kurzzeitkredit
+      mail_order_account: Adresse
+      youll_also_need: Sie benötigen einen Personalausweis oder einen deutschen Führerschein.
     why_might_this_not_work_for_me:
-      title: Pam efallai na fydd hyn yn gweithio i mi
-      heading: Efallai na fyddwch yn gallu cael eich hunaniaeth wedi’i ddilysu
-      try_to_verify: Hoffwn roi cynnig ar ddilysu fy hunaniaeth ar-lein
-      explanation: I ddilysu hunaniaeth, mae cwmnïau ardystiedig yn cael mynediad i’ch cofnodion credyd ac yna yn gofyn i chi gadarnhau’r wybodaeth hyn. Mae gan y mwyafrif o bobl ifanc a newydd ddyfodiaid i’r DU &lsquo;hanes credyd&rsquo; cyfyngedig, efallai na fydd cwmnïau yn gallu gwirio eich hunaniaeth yn y ffordd hyn.
-      what_youll_need: Beth fyddwch ei angen ar eich cofnod credyd
-      if_you_have_these: Efallai y gall eich hunaniaeth gael ei ddilysu os oes gennych 2 neu fwy o’r canlynol
-      current_account: cyfrif cyfredol gyda banc yn y DU
-      credit_card: cerdyn credyd
-      personal_loan: benthyciad personol
-      mortgage: morgais
-      gas_electricity_bills: biliau nwy neu drydan
-      mobile_phone_contract: cytundeb ffôn symudol
-      registered_to_vote: rydych wedi cofrestru i bleidleisio
-      youll_also_need: Byddwch hefyd angen pasport y DU neu drwydded yrru’r DU.
+      title: Warum funktioniert es ggf. nicht für mich
+      heading: Es kann sein, dass Ihre Identität nicht verifiziert werden kann
+      try_to_verify: Ich möchte meine Identität durch BUND Verify bestätigen
+      explanation: Um Ihre Identität zu bestätigen, greifen diese Organisationen auf Ihre Kontodaten zu. Junge Leute und neu zugezogene Personen haben nur einen eingeschränkten Kontoverlauf. Deshalb kann es sein, dass die Verifizierung für diese Personen nicht verfügbar ist.
+      what_youll_need: Was Sie in Ihrem Kontoverlauf brauchen
+      if_you_have_these: Ihre Identität sollte bestätigt werden können, wenn zwei oder mehrere dieser Aspekte zutreffen
+      current_account: Bankkonto bei einer deutschen Bank
+      credit_card: Kreditkarte
+      personal_loan: Kredit
+      mortgage: Hypothek
+      gas_electricity_bills: Stromrechnung vorliegend
+      mobile_phone_contract: Mobilfunkvertrag
+      registered_to_vote: Wahlschein beantragt
+      youll_also_need: Sie benötigen einen Personalausweis oder einen deutschen Führerschein.
     will_not_work_without_uk_address:
-      title: Ni fydd BUND Verify yn gweithio i chi
-      heading: Ni fydd BUND Verify yn gweithio i chi
-      explanation: Rydych angen cyfeiriad presennol yn y DU i gael eich hunaniaeth wedi’i ddilysu.
-      verify_wont_work_but_there_is_still_a_way: Ni all 'GOV.UK Verify' cadarnhau pwy ydych chi oherwydd mai angen o leiaf un cyfeiriad yn y DU arnoch.  %{other_ways_text}
+      title: BUND Verify steht für Sie nicht zur Verfügung
+      heading: BUND Verify funktioniert für Sie leider nicht
+      explanation: Sie benötigen eine Meldeadresse in Deutschland, um Ihre Identität zu bestätigen.
     choose_a_certified_company:
-      title: Dewiswch gwmni ardystiedig
-      heading: Dewiswch gwmni ardystiedig i ddilysu eich hunaniaeth
-      existing_customer: Nid oes angen i chi fod yn gwsmer presennol gyda chwmni.
-      personal_information: Maent yn gofyn i chi ddarparu gwybodaeth bersonol a thystiolaeth, ac yna gwirio ei fod yn gywir gan ddefnyddio'r systemau newydd, diogel y maent wedi eu hadeiladu.
-      why_companies: Pam fod dewis o gwmnïau
-      choose_idp: Dewiswch %{display_name}
-      idp_count_html: "Yn seiliedig ar eich atebion, gall %{company_count} eich dilysu nawr:"
+      title: Zertifizierte Organisation wählen 
+      heading: Wählen Sie eine zertifizierte Organisation
+      existing_customer: Sie müssen kein Kunde dieser Organisationen sein.
+      personal_information: Im Prozesse werden Ihre Datenangaben geprüft.
+      why_companies: Warum habe ich die Wahl?
+      choose_idp: "Wähle %{display_name}"
+      idp_count_html: "Auf Basis Ihrer Antworten, kann %{company_count} Ihre Identität verifizieren:"
       company_html:
-        zero: no&nbsp;cwmni
-        one: 1&nbsp;cwmni
-        two: 2&nbsp;gwmni
-        few: "%{count}&nbsp;o gwmnïau"
-        many: "%{count}&nbsp;o gwmnïau"
-        other: "%{count}&nbsp;o gwmnïau"
-      show_all_companies: Cwmniau sy’n annhebygol o’ch dilysu chi
-      filtered_idps_message_html: Rydym wedi tynnu allan %{company_count}, oherwydd eu bod yn annhebygol o allu eich dilysu yn seiliedig ar eich atebion.
-      about_idp: Am %{display_name}
+        zero: no&nbsp;companies
+        one: 1&nbsp;company
+        other: "%{count}&nbsp;companies"
+      show_all_companies: Organisationen, die sich wahrscheinlich nicht identifizieren können
+      filtered_idps_message_html: "Wir haben %{company_count} herausgenommen. Diese können Sie wahrscheinlich nicht verifizieren."
+      about_idp: Über %{display_name}
       dialog:
-        information_provided_by: Gwybodaeth a ddarparwyd gan %{display_name}
-        close: cau
+        information_provided_by: Informationen von %{display_name}
+        close: Schließen
       about:
-        title: Am %{display_name}
-        information_provided_by: Gwybodaeth a ddarparwyd gan %{display_name}
-        close: cau
+        title: Über %{display_name}
+        information_provided_by: Informationen von %{display_name}
+        close: Schließen
     why_companies:
-      title: Pam fod dewis o gwmnïau
-      choose_a_company: Dewiswch gwmni
+      title: Warum habe ich die Wahl?
+      choose_a_company: Organisation wählen
       content_html: |
-        <p>Mae mwy nag un cwmni ardystiedig yn golygu system mwy diogel - nid yw gwybodaeth yn cael ei gadw mewn un lle, ond mae’n cael ei rannu mewn nifer o wahannol lefydd, sydd yn ei gwneud yn fwy diogel.</p>
-        <p>Eich hawl chi yw dewis pwy ydych chi eisiau delio â hwy o’r cwmnïau hyn. Eich hawl chi yw hefyd newid pa gwmni rydych yn deilo ag ef ar unrhyw adeg.</p>
-        <p>Wrth ddilysu eich hunaniaeth, gall y cwmnïau hyn ddefnyddio eu cofnodion eu hunain, ac maent wedi cael eu hardystio i gael mynediad i wybodaeth fel cofnodion credyd. Maent yn gwneud hyn i wirio bod y wybodaeth rydych yn ei ddarparu o basbortau a thrwyddedau gyrru yn gywir.</p>
-        <p>Mae cwmnïau ardystiedig yn bodloni safoau preifatrwydd llym y llywodraeth, felly gallwch ymddiried ynddynt gyda’ch gwybodaeth. Ni fyddant yn defnyddio eich gwybodaeth ar gyfer unrhyw ddibenion eraill heb eich caniatâd.</p>
-        <p>Nid oes effaith ar eich sgor credyd.</p>
+        <p>Sie haben die Wahl mit welcher Organisation Sie interagieren möchten. Sie haben das Recht, die Interaktion jederzeit einzustellen und die Organistion zu wechseln.</p>
+        <p>Um Ihre Identität zu verfizieren, greifen die Organisationen auf Ihre eigenen Daten zurück oder nutzen Daten wie Ihren Kontoverlauf. Diese Daten werden mit Ihren Angaben zu Ihrem Ausweis und Führerschein abgeglichen.</p>
+        <p>Diese 5 Organisationen erfüllen die staatlichen Sicherheitsstandarde. Ihnen kann vertraut werden. Die Organisationen dürfen Ihre Daten nicht ohne Ihre Einwilligung für andere Zwecke nutzen.</p>
+        <p>Die Verifizierung Ihrer Identität über die Anbieter hat keinen Einfluss auf Ihre Bonität.</p>
       content_loa1_html: |
-        <p>Mae mwy nag un cwmni ardystiedig yn golygu system mwy diogel - nid yw gwybodaeth yn cael ei gadw mewn un lle, ond mae’n cael ei rannu mewn nifer o wahannol lefydd, sydd yn ei gwneud yn fwy diogel.</p>
-        <p>Eich hawl chi yw dewis pwy ydych chi eisiau delio â hwy o’r cwmnïau hyn. Eich hawl chi yw hefyd newid pa gwmni rydych yn deilo ag ef ar unrhyw adeg.</p>
-        <p>Wrth ddilysu eich hunaniaeth, gall y cwmniau hyn ddefnyddio eu cofnodion eu hunain ac maent wedi cael eu hardystio i gael mynediad i wybodaeth fel cofnodion credyd. Maent yn gwneud hyn i wirio gwybodaeth rydych yn ei ddarparu.</p>
-        <p>Mae cwmnïau ardystiedig yn bodloni safoau preifatrwydd llym y llywodraeth, felly gallwch ymddiried ynddynt gyda’ch gwybodaeth. Ni fyddant yn defnyddio eich gwybodaeth ar gyfer unrhyw ddibenion eraill heb eich caniatâd.</p>
-        <p>Nid oes effaith ar eich sgor credyd.</p>
+        <p>Sie haben die Wahl mit welcher Organisation Sie interagieren möchten. Sie haben das Recht, die Interaktion jederzeit einzustellen und die Organistion zu wechseln.</p>
+        <p>Um Ihre Identität zu verfizieren, greifen die Organisationen auf Ihre eigenen Daten zurück oder nutzen Daten wie Ihren Kontoverlauf. Diese Daten werden mit Ihren Angaben zu Ihrem Ausweis und Führerschein abgeglichen.</p>
+        <p>Diese 5 Organisationen erfüllen die staatlichen Sicherheitsstandarde. Ihnen kann vertraut werden. Die Organisationen dürfen Ihre Daten nicht ohne Ihre Einwilligung für andere Zwecke nutzen.</p>
+        <p>Die Verifizierung Ihrer Identität über die Anbieter hat keinen Einfluss auf Ihre Bonität.</p>
     redirect_to_idp_warning:
       title: Byddwch nawr yn cael eich ailgyfeirio
       create_account: Crëwch eich cyfrif hunaniaeth %{display_name}
