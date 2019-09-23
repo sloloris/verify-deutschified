@@ -1,11 +1,11 @@
 cy:
   routes:
-    start: start-de
+    start: start
     prove_identity: identitaet-bestaetigen
     prove_identity_retry: identitaet-bestaetigen-neu
     begin_registration: registrierung-beginnen
     begin_sign_in: beginnen-sign-in
-    about: about-de
+    about: about
     sign_in: registrieren
     about_certified_companies: about-zertifizierte-unternehmen
     about_identity_accounts: about-identitaet-kontos
@@ -31,8 +31,8 @@ cy:
     idp_wont_work_for_you_one_doc: idp-funktioniert-nicht-fuer-dich
     privacy_notice: datenschutz
     verify_services: bestaetigung-dienste
-    cookies: cookies-de
-    confirm_your_identity: identitaet-bestaetigen
+    cookies: cookies
+    confirm_your_identity: identitaet-bestätigen
     confirmation: bestaetigung
     confirmation_non_matching_journey: bestaetigung-redirect-zum-service
     failed_registration: fehlgeschlagen-registrierung
@@ -48,8 +48,8 @@ cy:
     redirect_to_service_signing_in: redirect-zu-service/log-in
     redirect_to_service_start_again: redirect-zu-service/neustart
     redirect_to_service_error: redirect-zu-service/fehler
-    feedback_landing: feedback-landing-de
-    feedback: feedback-de
+    feedback_landing: feedback-landing
+    feedback: feedback
     feedback_sent: feedback/feedback-gesendet
     further_information: weitere-information
     further_information_timeout: weitere-information/timeout
@@ -59,11 +59,11 @@ cy:
     cancelled_registration: abgebrochen-registrierung
     select_proof_of_address: waehlen-adresse-verifizieren
     confirming_it_is_you: bestaetigen-das-sind-sie
-    paused_registration: paused-de
+    paused_registration: paused
     resume_registration: fortfahren-registrierung
-    paused_registration_resume_link: paused-de/:idp
-    single_idp_start_page: single-start-deutsch/:transaction_simple_id
-    proxy_node_error: proxy-node-error-de
+    paused_registration_resume_link: paused/:idp
+    single_idp_start_page: single-start/:transaction_simple_id
+    proxy_node_error: proxy-node-fehler
   common:
     logo: "%{name} logo"
   title:
@@ -116,7 +116,7 @@ cy:
             <li>Ausweis, Reisepass oder Führerschein</li>
           </ul>
           <p>bei der Nutzung von BUND verify wird ein zertifizierter Identitätsdienst Ihre Identität prüfen.</p>
-        button_text: Use BUND Verify
+        button_text: Use GOV.UK Verify
       use_eidas:
         heading: Digitale Identität eines anderen europäischen Landes verwenden
         content_html: |
@@ -157,7 +157,7 @@ cy:
       other_services: Andere Dienste
     about:
       title: About
-      verify_is_a_service: BUND Verify ist ein sicherer Weg, Identitäten online zu bestätigen. Ziel ist es, Bürgerinnen und Bürger vor Identitätsdiebstahl zu schützen.
+      verify_is_a_service: BUND Verfiy ist ein sicherer Weg,Identitäten online zu bestätigen. Ziel ist es, Bürgerinnen und Bürger vor Idenitätsdiebstahl zu schützen.
     about_certified_companies:
       title: Über zertifizierte Unternehmen
       a_certified_company_will_verify: Ein staatlich zertifiziertes Unternehmen bestätigt Ihre Identität. 
@@ -356,7 +356,7 @@ cy:
         <p>Diese 5 Organisationen erfüllen die staatlichen Sicherheitsstandarde. Ihnen kann vertraut werden. Die Organisationen dürfen Ihre Daten nicht ohne Ihre Einwilligung für andere Zwecke nutzen.</p>
         <p>Die Verifizierung Ihrer Identität über die Anbieter hat keinen Einfluss auf Ihre Bonität.</p>
     redirect_to_idp_warning:
-      title: Sie werden nun weitergeleitet
+      title: "Sie werden nun weitergeleitet"
       create_account: Nutzerkonto %{display_name} anlegen
       continue_website: Weiter zur %{display_name} Webste
       identity_account_use_html: |
@@ -366,309 +366,309 @@ cy:
       other_ways_link: "Andere Wege zum %{transaction}"
       no_docs_other_ways_message_html: "%{idp_no_docs_requirement}, es gibt %{other_ways_link}"
     redirect_to_idp_question:
-      title: Cwestiwn ychwanegol
-      heading: Dilysu gyda %{display_name}
-      loa1_heading: Sefydlu cyfrif %{display_name}
-      answer_yes: Ydw
-      answer_no: Na
+      title: "Zusatz-Frage"
+      heading: Verifizieren mit %{display_name}
+      loa1_heading: %{display_name} Konto anlegen
+      answer_yes: "Ja"
+      answer_no: "Nein"
       warning_html: |
-        <p class="error-message">Efallai na fydd %{display_name} yn gallu eich dilysu</p>
-        <p>Rydym yn argymell eich bod yn %{choose_another_company_link}.</p>
-      choose_another_certified_company_link: dewis cwmni ardystiedig arall
-      identity_documents: Rydych angen eich dogfennau hunaniaeth gyda chi oherwydd bydd yn rhaid i chi ychwanegu eu manylion.
-      or_html: neu %{choose_another_company_link}
-      validation_message: Dylech ateb y cwestiwn
+         <p class="error-message">%{display_name} kann Sie ggf. nicht identifizieren</p>
+         <p>Wir empfehlen, dass Sie %{choose_another_company_link}.</p>
+      choose_another_certified_company_link: choose another company
+      identity_documents: Sie benötigen Ihre Idenitätsdokumente, um entsprechende Angaben oder ein Foto davon zu machen.
+      or_html: oder %{choose_another_company_link}
+      validation_message: Bitte beantworten Sie folgende Frage
     confirm_your_identity:
-      title: Cadarnhau eich hunaniaeth
-      use_other_idp: Os nad hwn yw’r cwmni a wnaeth eich dilysu, %{sign_in_link}.
-      sign_in_link_message: llofnodwch i mewn gyda chwmni ardystiedig gwahanol
-      need_to_signin_again: Er mwyn %{transaction_name}, mae angen i chi lofnodi i mewn eto gyda’ch cwmni ardystiedig. Nid oes angen i chi gofrestru eto.
+      title: Identität bestätigen
+      use_other_idp: Dies ist nicht die Organisation, die Ihre Identität bestätigt hat, %{sign_in_link}.
+      sign_in_link_message: Mit einer anderen Organisation anmelden
+      need_to_signin_again: Um %{transaction_name}, müssen Sie sich erneut mit der von Ihnen gewählten Organisation einloggen. Sie müssen sich nicht nochmal anmelden.
     confirmation:
-      title: Mae eich hunaniaeth wedi cael ei ddilysu
-      message: Gallwch fewngofnodi ble bynnag rydych yn gweld logo BUND Verify gyda'ch enw defnyddiwr a chyfrinair eich cyfrif hunaniaeth %{display_name}
-      continue_to_rp: Gallwch nawr ddefnyddio %{transaction_name}.
-      heading: Mae %{display_name} wedi dilysu eich hunaniaeth
-      add_security_loa1: Pan fyddwch yn defnyddio rhai o wasanaethau'r llywodraeth, gofynnir i chi ddarparu mwy o dystiolaeth gan fod angen i'r gwasanaethau hyn fod yn hyderus nad yw rhywun arall yn honni i fod yn chi.
-      extra_security: Gwasanaethau'r llywodraeth sydd angen tystiolaeth ychwanegol
+      title: Ihre Identität wurde bestätigt
+      message: "Sie können sich überall wo das BUND Verify Logo zu sehen ist mit Ihrem %{display_name} Identitätskonto sowie Usernamen und Password einloggen."
+      continue_to_rp: "Sie können nun %{transaction_name}."
+      heading: "%{display_name} hat Ihre Identität bestätigt"
+      add_security_loa1: Bei manchen Verwaltungsleistungen müssen Sie weitere Daten vorhalten. Diese müssen Sie jedoch nur einmalig angeben.
+      extra_security: Verwaltungsleistung umfasst weitere Daten
     failed_registration:
-      title: Methu dilysu eich hunaniaeth
-      heading: Roedd %{idp_name} yn methu dilysu eich hunaniaeth
-      try_another_company: Rhowch gynnig ar gwmni ardystiedig arall
-      reasons_html: Gallwch barhau i ddal %{service_name}
-      what_to_do_next_intro: "Gallwch roi cynnig ar y canlynol:"
-      what_to_do_next: Beth i’w wneud nesaf
-      problems_verifying_your_identity: Problemau gyda dilysu eich hunaniaeth
-      continue_heading: Mynd ymlaen i %{transaction_name}
-      continue_idp_text: Roedd %{idp_name} yn methu dilysu eich hunaniaeth.
-      continue_text: Mynd ymlaen i %{rp_name} i ddarganfod sut.
-      start_again: Dod o hyd i gwmni arall i’ch gwirio
-      other_ways_summary: Gweld ffyrdd eraill o %{other_ways_description}
-      try_another_text: Mae cwmniau eraill yn defnyddio dulliau gwahanol i %{idp_name} ac felly gyda gwell siawns o ddilysu eich hunaniaeth.
-      try_another_summary: Ceisiwch wirio gyda chwmni ardystiedig arall
-      contact_details_intro: Cysylltwch â %{idp_name}
+      title: Ihre Identität konnte nicht bestätigt werden
+      heading: "%{idp_name} konnte Ihre Identität bestätigen"
+      try_another_company: Wählen Sie eine andere Organisation
+      reasons_html: Sie können jedoch immer noch %{service_name}
+      what_to_do_next_intro: "Sie können folgendes versuchen:"
+      what_to_do_next: "Die nächsten Schritte"
+      problems_verifying_your_identity: Bei der Verifizierung sind Probleme aufgetreten
+      continue_heading: "Weiter zu %{transaction_name}"
+      continue_idp_text: "%{idp_name} war nicht in der Lage Ihre Identität zu bestätigen."
+      continue_text: "Weiter zu %{rp_name} um herauszufiden wie."
+      start_again: Finden Sie eine andere Organisation um Ihre Identität zu bestätigen
+      other_ways_summary: "Sehen Sie andere Wege um %{other_ways_description}"
+      try_another_text: "AAndere Organisationen nutzen andere Identitätsbestätigungen als %{idp_name} und könnten Ihnen daher bessere Möglichkeiten bieten Ihre Identität zu bestätigen."
+      try_another_summary: Bitte versuchen Sie Ihre Identität mit einer anderen zertifizierten Organisation zu bestätigen
+      contact_details_intro: "Kontak %{idp_name}"
     failed_country_sign_in:
-      title: Methu eich mewngofnodi
-      heading: Mae'r cynllun hunaniaeth yn eich gwlad wedi methu â chadarnhau eich hunaniaeth.
-      other_ways: "Mae yna ffyrdd eraill y gallwch %{other_ways_description}."
-      online_link: Ffyrdd eraill i brofi eich hunaniaeth ar-lein
-      online: Ar-lein
-      offline: All-lein
+      title: Einloggen war nicht möglich
+      heading: "Ihre Identitätsbestätigung in %{country_name} war nicht in der Lage Ihre Identität zu bestätigen"
+      other_ways: "Es gibt andere Wege wie Sie %{other_ways_description}."
+      online_link: Andere Wege Ihre Identität online zu bestätigen
+      online: Online
+      offline: Offline
     failed_sign_in:
-      title: Methu eich mewngofnodi
-      heading: Ni all %{display_name} eich mewngofnodi
+      title: Einloggen fehlgeschlagen
+      heading: "%{display_name}konnte Sie nicht einloggen"
       reasons_html: |
-        <p>Efallai eich bod wedi dewis y cwmni anghywir. Edrychwch ar eich e-byst a negeseuon testun am gadarnhad o bwy wnaeth eich dilysu.</p>
-        <p>Gallwch gael eich dilysu gan gwmni arall unrhyw bryd. Ni fyddwch yn colli unrhyw ddata ar wasanaethau BUND rydych wedi’u defnyddio.</p>
-      start_again: Dechrau eto
+        <p>Sie könnten die falsche Organisation ausgewählt haben. Bitte überprüfen Sie Ihre Emails und Textnachrichten auf eine Bestätigung, wer Ihre Identität bestätigt hat.</p>
+        <p>Sie können jederzeit von einer anderen Organisation bestätigt werden. Sie verlieren keine Daten bei BUND Verify Dienstleistungen, die Sie benutzt haben.</p>
+      start_again: "Erneut starten"
     failed_uplift:
-      title: Methwyd yr ymgodiad
-      heading: "Nid oedd %{display_name} yn gallu dilysu'r dystiolaeth a ddarparwyd gennych"
+      title: Erhebung fehlgeschlagen
+      heading: "%{display_name} könnte Ihre Belege nicht bestätigen"
       reasons_html: |
-        <p>Mae ychydig o resymau pam allai hyn ddigwydd, yn cynnwys:</p>
+        <p>Es gibt einige Gründe, warum dies passiert sein könnte. Unter anderem:</p>
         <ul class="list list-bullet">
-          <li>nid yw eich ateb i gwestiwn yn cyd fynd a chofnodion ar-lein</li>
-          <li>rydych yn ddiweddar wedi cael newid yn eich amgylchiadau, ac nid ydynt wedi cael eu diweddaru ar-lein</li>
-          <li>Nid oes gan %{idp_name} fynediad i ddigon o wybodaeth amdanoch chi</li>
+          <li>Ihre Antwort zu einer Frage passte nicht zu unseren online Aufzeichnungens</li>
+          <li>Es gab bei Ihnen neulich Änderungen, die online noch nicht zur Verfügung stehen</li>
+          <li>%{idp_name} hat nicht ausreichend Informationen über Sie</li>
         </ul>
-      start_again: Dod o hyd i gwmni arall i’ch gwirio
-      still_use_heading: "Gallwch barhau i ddefnyddio'r gwasanaethau'r llywodraeth hyn gyda'ch cyfrif hunaniaeth %{idp_name}"
-      try_another_text: Mae cwmniau eraill yn defnyddio dulliau gwahanol i %{idp_name} ac felly gyda gwell siawns o ddilysu eich hunaniaeth.
-      try_another_summary: Ceisiwch wirio gyda chwmni ardystiedig arall
-      what_next_heading: Beth i’w wneud nesaf
-      other_ways_summary: Gweld ffyrdd eraill o %{other_ways_description}
-      contact_summary: Cysylltwch â %{idp_name}
+      start_again: Finden Sie eine andere Organisation um Ihre Identität zu bestätigen
+      still_use_heading: "Sie können diese staatlichen Dienstleistungen immer noch mit Ihrem %{idp_name} Account verwenden"
+      try_another_text: "Andere Organisationen nutzen andere Identitätsbestätigungen als %{idp_name} und könnten Ihnen daher bessere Möglichkeiten bieten Ihre Identität zu bestätigen."
+      try_another_summary: "Versuchen Sie Ihre Identität mit einer anderen zertifzierten Organsiation zu bestätigen"
+      what_next_heading: "Was können Sie als nächstes tun"
+      other_ways_summary: "Betrachen Sie andere Wege um %{other_ways_description}"
+      contact_summary: "Kontakt %{idp_name}"
     response_processing:
-      title: Arhoswch
-      heading: Mae %{rp_name} yn prosesu eich manylion
-      bear_with_us: Gallai hyn gymryd ychydig o eiliadau, diolch am eich amynedd.
+      title: Bitte warten
+      heading: "%{rp_name} verarbeitet Ihre Informationen"
+      bear_with_us: "Dies könnte einige Sekunden dauern, bitte haben Sie etwas Geduld."
       matching_error:
-        heading: Mae'n ddrwg gennym, mae yna broblem gyda'r gwasanaeth
-        other_ways: "Ceisiwch eto'n hwyrach neu edrychwch ar ffyrdd eraill y gallwch %{other_ways_description}."
-        online_link: Ffyrdd eraill i brofi eich hunaniaeth ar-lein
-        online: Ar-lein
-        offline: All-lein
+        heading: "Enschuldigen Sie bitte. Es ist ein Problem aufgetreten."
+        other_ways: "Bitte versuchen Sie es später erneut oder schauen Sie sich andere Wege an, wie Sie %{other_ways_description} können."
+        online_link: Andere Wege Ihre Identität online zu bestätigen
+        online: Online
+        offline: Offline
     forgot_company:
-      title: Cyngor ar gyfer cwmni sydd wedi’i anghofio
+      title: Rat für vergessene Organisationen
     redirect_to_service:
-      heading: Mynd ymlaen i'r cam nesaf
+      heading: Weiter zum nächsten Schritt
       signing_in:
-        title: Arhoswch. Yn eich mewngofnodi
-        transition_heading: Mae %{rp_name} yn prosesu eich manylion
+        title: "Bitte warten. Sie werden eingeloggt"
+        transition_heading: "%{rp_name} verarbeitet Ihre Informationen"
       start_again:
-        title: Arhoswch. Dechrau eto.
-        transition_heading: Dechrau eto
-      no_javascript: Oherwydd nad yw Javascript wedi'i alluogi ar eich porwr, mae'n rhaid i chi bwyso'r botwm parhau
-      loading: Llwytho…
-      please_wait: Gall hyn gymryd ychydig o eiliadau, arhoswch gyda ni.
+        title: "Please wait. Erneut starten."
+        transition_heading: "Erneut starten"
+      no_javascript: Weil Javascript in Ihrem Browser nicht aktiviert ist, müssen Sie den Weiterknopf betätigen
+      please_wait: Dies könnte einige Sekunden dauern, bitte haben Sie etwas Geduld.
+      loading: "Laden…"
     redirect_to_idp:
-      title: Llwytho
-      heading: Mynd ymlaen i’r cam nesaf
-      description: Oherwydd nad yw Javascript wedi’i alluogi ar eich porwr, mae’n rhaid i chi bwyso’r botwm parhau
+      title: Laden
+      heading: Weiter zum nächsten Schritt
+      description: Weil Javascript in Ihrem Browser nicht aktiviert ist, müssen Sie den Weiterknopf betätigen
     feedback_landing:
-      title: Help
-      basic_heading: Cael help i ddefnyddio BUND Verify
-      heading: Cael help i gael mynediad %{service_name}
+      title: Hilfe
+      basic_heading: Hilfe bei der Registrierung bei BUND Verify
+      heading: Hilfe für den Zugang zu %{service_name}
       idps:
-        heading: Cael help i fewngofnodi gyda BUND Verify
+        heading: Hilfe bei der Registrierung bei BUND Verify
         href: https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify#how-to-get-help-signing-in
-        description: Mae cwmnïau sy'n gwirio hunaniaeth ar gyfer BUND Verify yn darparu cymorth 7 diwrnod yr wythnos (ac eithrio %{bank_holidays}).
-        bank_holidays: gwyliau banc
+        description: Organisationen, die Identitäten für BUND Verify bestätigen, bieten Support an 7 Tagen der Woche an (außer an %{bank_holidays}).
+        bank_holidays: Sonn- und Feiertag
       services:
-        heading: Ffyrdd eraill i brofi eich hunaniaeth
+        heading: Andere Wege Ihre Identität zu bestätigen
       feedback_form:
-        heading: Rhoi adborth ar BUND Verify
-        paragraph: Gofyn cwestiwn, rhoi gwybod am broblem neu awgrymu gwelliant y gall BUND Verify ei wneud. Nod y tîm cymorth yw ymateb i gwestiynau mewn 5 diwrnod gwaith.
+        heading: Geben Sie Feedback an BUND Verify
+        paragraph: Stellen Sie eine Frage, melden Sie ein Problem oder machen Sie einen Verbesserungsvorschlag, den BUND Verify umsetzen kann. Das Supportteam versucht Ihre Anfrage in 5 Werktagen zu beantworten.
     feedback:
-      title: Adborth
-      heading: Anfonnwch eich adborth i BUND Verify
+      title: Feedback
+      heading: Senden Sie Ihr Feedback zu BUND Verify
       introduction_html: |
-        <p>Defnyddiwch y ffurflen hon i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant y gall BUND Verify ei wneud.</p>
-        <p><strong>Peidiwch â chynnwys unrhyw wybodaeth bersonol neu ariannol fel eich rhif Yswiriant Gwladol neu fanylion cerdyn credyd.</strong></p>
-      request_reply: Gadewch eich manylion isod os hoffech gael ymateb gan BUND Verify.
-      consent_message_html: Drwy anfon y neges hon rydych yn rhoi caniatâd i ni ddefnyddio eich gwybodaeth fel a fanylir yn yr %{href}.
-      privacy_notice_link: hysbyseb preifatrwydd
-      character_count_message: " nod yn weddill %{limit_message}"
-      character_limit_message: (y terfyn yw 3000 nod)
+        <p>Nutzen Sie dieses Formula, um eine Frage zu stellen, von einem Problem zu berichten oder einen Verbesserungsvorschlag fur BUND Verify zu machen.</p>
+        <p><strong>Bitte geben Sie keine persönlichen oder finanziellen Informationen wie Ihre Versicherungsnnummer oder Ihre Kreditkartennummer an.</strong></p>
+      request_reply: Bitte geben Sie Informationen zu sich an, wenn Sie eine Antwort von BUND Verify erhalten möchten.
+      consent_message_html: Mit dem Absenden dieser Nachricht, stimmen Sie damit zu Ihre Informationen so weiterzugeben wie in %{href} beschrieben.
+      privacy_notice_link: Datenschutzinformation
+      character_count_message: " Verbleibende Zeichen %{limit_message}"
+      character_limit_message: (Limitiert bis 3000 Zeichen)
       questions:
-        what: Beth oeddech chi'n ceisio ei wneud?
-        details: Rhowch fanylion eich cwestiwn, problem neu adborth
-        reply: Ydych chi eisiau ateb?
-        reply_option_yes: Ydw
-        name: Enw
-        email: Cyfeiriad e-bost
-        email_hint: Byddwn ond yn ei ddefnyddio i ateb eich neges.
+        what: Was hatten Sie vor zu tun?
+        details: Bitte geben Sie mehr Informationen zu Ihrer Frage, Ihrem Problem oder Ihrem Feedback an
+        reply: Möchten Sie eine Antwort?
+        reply_option_yes: "Ja"
+        name: Name
+        email: Emailadresse
+        email_hint: Wir werden diese nur zur Beantwortung Ihrer Nachricht verwenden.
       errors:
-        heading: Roedd problem wrth anfon y ffurflen
-        no_selection: Dylech ateb y cwestiynau
-        details: Dylech roi manylion
-        too_long: Gall y maes hwn fod hyd at %{max_length} nod  #TODO TT-1461: confirm text
-        name: Dylech roi enw
-        email: Dylech roi cyfeiriad e-bost dilys
-        send_failure: Yn anffodus rydym yn methu cofnodi eich adborth ar hyn o bryd. Rhowch gynnig arall yn hwyrach ymlaen.
-        reply: Dylech ddewis opsiwn
-      send_message: Anfon neges
+        heading: Es gab ein Problem beim Absenden des Formulars
+        no_selection: Bitte beantworten Sie die Frage
+        details: Bitte geben Sie Details an
+        too_long: Dies Feld kann mit bis zu %{max_length} Zeichen gefüllt werden  #TODO TT-1461: confirm text
+        name: Bitte geben Sie einen Namen ein
+        email: Bitte geben Sie eine korrekte Mailadresse ein
+        send_failure: Leider ist es uns gerade nicht möglich Ihr Feedback aufzunehmen. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.
+        reply: Bitte wählen Sie eine Option
+      send_message: Nachricht senden
     feedback_disabled:
-      title: Adborth wedi'i Analluogi
-      heading: Mae adborth wedi'i analluogi ar yr amgylchedd hwn
-      error_content: Ar hyn o bryd rydych yn defnyddio fersiwn ddi-gynhyrchu o Verify, lle mae adborth wedi'i analluogi.
+      title: Feedback Ausgeschaltet
+      heading: Feedbackfunktion ist in dieser Umgebung ausgeschaltet
+      error_content: Sie nutzen gerade eine Version von Verify, in der das Feedback ausgeschaltet wurde.
     feedback_sent:
-      title: Adborth
-      heading: Diolch am eich adborth
-      message_email: Rydym wedi derbyn eich neges a byddwn yn ymateb cyn gynted â phosibl.
-      session_valid_link: Dychwelyd i BUND Verify
-      session_not_valid: Mae eich sesiwn wedi’i amseru allan.
-      session_not_valid_link: ddechrau eto
-      product_page: Dychwelyd i dudalen BUND  Verify
+      title: Feedback
+      heading: Danke für Ihr Feedback.
+      message_email: Wir haben Ihre Nachricht erhalten und werden so bald wie möglich antworten.
+      session_valid_link: Zurück zu BUND Verify
+      session_not_valid: Ihre Sitzung ist abgelaufen.
+      session_not_valid_link: Erneut starten
+      product_page: Zur BUND Verify Produktseite zurückkehren.
     certified_companies_unavailable:
       title:
-        one: Nid yw %{company} ar gael ar hyn o bryd ar BUND Verify
-        other: Nid yw'r cwmnïau hyn ar gael dros dro gyda BUND Verify
-      verify_another_company_html: Gallwch gynnig eto yn nes ymlaen neu %{link}.
-      verify_another_company_link: dilysu eich hunaniaeth gyda chwmni ardystiedig arall
-      verify_another_company_text: Gallwch geisio nes ymlaen eto neu wirio'ch hunaniaeth gyda chwmni ardystiedig arall.
-      company_text: Nid yw %{company} ar gael
+        one: "%{company} ist momentan bei BUND Verify nicht verfügbar"
+        other: Diese Organisationen sind momentan bei BUND Verify nicht verfügbar.
+      verify_another_company_html: Sie können es später erneut versuchen oder %{link}.
+      verify_another_company_link: bestätigen Sie Ihre Identität mit einer anderen zertifizierten Organisation
+      verify_another_company_text: Sie können es später erneut versuchen oder Ihre Identität mit einem anderen zertifizierten Organisation bestätigen.
+      company_text: "%{company} ist nicht verfügbar"
     certified_companies_disconnected:
-      title: Nid yw'r cwmnïau canlynol bellach yn rhan o BUND Verify
-      verify_another_company_html: Os oedd gennych gyfrif hunaniaeth gydag un o'r cwmnïau hyn, bydd angen i chi %{link}.
-      verify_another_company_link: dilysu eich hunaniaeth gyda chwmni arall
+      title: Die folgenden Organisationen sind nicht länger bei BUND Verify verfügbar.
+      verify_another_company_html: Falls Sie einen Account bei einer dieser Organisationen hatten, müssen Sie %{link}.
+      verify_another_company_link: bestätigen Sie Ihre Identität mit einer anderen Organisation
     further_information:
-      title: Rhowch eich %{cycle_three_name}
-      first_time: Hwn yw'r tro cyntaf i chi fewngofnodi.
-      help_with_your: Ble i ddod o hyd i'ch %{cycle_three_name}
-      cancel: Dileu a dychwelyd i %{transaction_name}
-      example_text: "Enghraifft: %{example}"
-      attribute_validation_message: Rhowch %{cycle_three_name} dilys
-      null_attribute: Nid oes gennyf %{cycle_three_name}
+      title: Geben Sie Ihren %{cycle_three_name} ein
+      first_time: Dies ist das erste Mal, dass Sie eingeloggt wurden.
+      help_with_your: Wo finden Sie Ihren %{cycle_three_name}
+      cancel: Abbrechen und zurückkehren zu %{transaction_name}
+      example_text: "Beispiel: %{example}"
+      attribute_validation_message: Geben Sie einen korrekten %{cycle_three_name} ein
+      null_attribute: Ich habe keinen %{cycle_three_name}
       modal:
-        heading: Byddwch yn cael eich allgofnodi'n fuan
-        text: Er mwyn cadw'ch gwybodaeth yn ddiogel, byddwch yn cael eich allgofnodi'n awtomatig
-        extra_text: Bydd angen i chi fewngofnodi eto gyda %{idp_name}.
-        button_continue: Parhau
-        button_signout: Allgofnodi nawr
+        heading: Sie werden bald ausgeloggt
+        text: Für die Sicherheit Ihrer Daten, werden Sie automatisch ausgeloggt werden
+        extra_text: Dann müssen Sie sich erneut mit %{idp_name} einloggen.
+        button_continue: Weiter
+        button_signout: Loggen Sie sich jetzt aus
       timeout:
-        title: "Rydych wedi cael eich allgofnodi"
-        heading: "Rydych wedi cael eich allgofnodi"
-        intro: "I gadw'ch wybodaeth yn ddiogel, rydych wedi cael eich allgofnodi ar ôl cyfnod o anweithgarwch."
-        continue: "I barhau i %{service_name}, bydd angen i chi fewngofnodi eto gyda %{idp_name}."
-        start_again: Mewngofnodi gyda %{idp_name}
-        other_ways_text: Gallwch hefyd weld
-        other_ways_link: ffyrdd eraill i %{service_name}
+        title: "Sie wurden ausgeloggt"
+        heading: "Sie wurden ausgeloggt"
+        intro: "Für die Sicherheit Ihrer Daten, wurden Sie nach einer gewissen Zeit der Inaktivität ausgeloggt."
+        continue: "Um mit %{service_name} fortzufahren, müssen Sie sich mit %{idp_name} registrieren."
+        start_again: Registrieren mit %{idp_name}
+        other_ways_text: Sie können auch sehen
+        other_ways_link: andere Wege um %{service_name}
     no_idps_available:
-      title: Dim IDPS ar gael
-      heading: Ni fydd BUND Verify yn gweithio i chi
-      text: Yn seiliedig ar eich atebion ni all yr un o'r cwmniau ardystiedig eich dilysu.
-      details_html: Gallwch %{href}; y mwyaf cywir y gallwch ateb y cwestiynau y mwyaf tebygol yw hi y bydd cwmni ardystiedig yn gallu eich dilysu.
-      details_link: newid eich atebion i'r cwestiynau
+      title: Keine Identitätsanbieter verfügbar
+      heading: BUND Verify wird für Sie nicht funktionieren
+      text: Auf Grundlage Ihrer Antworten, gibt es leider keine zertifizierte Organisation, die Ihre Identität bestätigen kann.
+      details_html: Sie können %{href}; je genauer Ihre Antworten auf die Fragen sind, desto wahrscheinlicher ist es, dass eine zertifizierte Organisation Sie bestätigt.
+      details_link: ändern Sie Ihre Antworten auf die Fragen
     cancelled_registration:
-      title: Cofrestriad Verify Wedi'i Ganslo
-      heading: "Gwnaethoch ganslo eich dilysiad hunaniaeth gyda %{idp_name}"
-      what_next: 'Gallwch ddal %{service_name}.'
-      try_another_summary: 'Rhowch gynnig ar ddarparwr hunaniaeth arall'
-      try_another_text: Mae cwmnïau eraill yn defnyddio dulliau gwahanol gan %{idp_name} ac efallai y byddant yn well i chi wirio'ch hunaniaeth.
-      about_choosing_a_company: Dod o hyd i gwmni arall i'ch gwirio
-      other_ways_summary: '%{other_ways_decorated} heb ddefnyddio BUND Verify'
-      feedback_summary: 'Anfon adborth i BUND Verify'
-      feedback_text: 'Gofyn cwestiwn, rhoi gwybod am broblem neu awgrymu gwelliant i BUND Verify.'
-      send_feedback: 'Anfon adborth'
-      next: Beth ydych chi eisiau ei wneud nesaf?
+      title: Identitätsbestätigung wurde abgebrochen
+      heading: "Sie haben die Bestätigung Ihrer Identität mit %{idp_name} abgebrochen"
+      next: 'Was wollen Sie als nächstes tun?'
+      what_next: 'sie können immer noch %{service_name}.'
+      try_another_summary: 'Versuchen Sie es mit einem anderen Identitätsdienst'
+      try_another_text: 'Andere Organisationen nutzen andere Methoden von %{idp_name} und können Ihre Identität wahrscheinlich leichter bestätigen.'
+      about_choosing_a_company: 'Finden Sie eine andere Organisation um Ihre Identität zu bestätigen'
+      other_ways_summary: '%{other_ways_decorated} ohne BUND Verify zu nutzen'
+      feedback_summary: 'Geben Sie Feedback an BUND Verify ab'
+      feedback_text: 'Stellen Sie eine Frage, senden Sie einen Problembericht oder geben Sie einen Verbesserungsvorschlag an BUND Verify ab.'
+      send_feedback: 'Senden Sie Feedback'
       options:
-        other_ways_to_verify: Darganfod ffyrdd eraill i %{service_name}
-        verify_with_another_company: Dilysu gyda chwmni ardystiedig arall
-        verify_using_other_documents: Dilysu drwy ddefnyddio dogfennau eraill
-        contact_verify: Cysylltu â BUND Verify
+        other_ways_to_verify: 'Finden Sie andere Wege um %{service_name}'
+        verify_with_another_company: 'Bestätigen Sie Ihre Identität mit einer anderen Organisation'
+        verify_using_other_documents: 'Bestätigen Sie Ihre Identität mit anderen Dokumenten'
+        contact_verify: 'Kontaktieren Sie BUND Verify'
     paused_registration:
       with_session:
-        title: "Dilysu Wedi'i Oedi %{idp_name}"
-        heading: "Mae eich cyfrif hunaniaeth %{idp_name} wedi cael ei arbed"
+        title: "Identitätsbestätigung wurde pausiert %{idp_name}"
+        heading: "Ihr Account bei %{idp_name} wurde gespeichert"
         restart_instructions_html: |
-          <p>I ddychwelyd gallwch:</p>
+           <p>Um zurück zu kommen können Sie:</p>
           <ul class="list list-bullet">
-            <li>ewch 'nôl i <a href="%{rp_start_page}">%{rp_name}</a>.</li>
-            <li>gwiriwch am e-bost gan %{idp_name}</li>
-            <li>rhowch nod tudalen yma</li>
+            <li>Zurückgehen zu der Organisation, die Sie nutzen</li>
+            <li>Emails von %{idp_name} überprüfen</li>
+            <li>Diese Seite als Lesezeichen speichern</li>
           </ul>
-          <p>Bydd angen yr e-bost neu'r enw defnyddiwr a'r cyfrinair a ddefnyddiwyd gennych i greu cyfrif gyda %{idp_name}.</p>
-        continue_verifying: 'Parhau i wirio gyda %{idp_name}'
-        return_html: 'Neu dychwelyd i <a href="%{rp_start_page}">%{rp_name}</a>.'
+          <p>Sie werden Ihre Email oder Ihren Nutzernamen sowie ein Passwort benötigen um einen Account zu erstellen.</p>
+        continue_verifying: 'Setzen Sie die Identitätsbestätigung mit %{idp_name} fort'
+        return_html: 'Oder kehren Sie zu <a href="%{rp_start_page}">%{rp_name}</a> zurück.'
       without_session:
-        title: Dilysu Wedi'i Oedi
-        heading: Mae eich cwmni ardystiedig wedi arbed eich gwybodaeth.
+        title: Identitätsbestätigung wurde pausiert
+        heading: Die zertifizierte Organisation hat Ihre Informationen gespeichert
         restart_instructions_html: |
-          <p>I ddychwelyd gallwch:</p>
+          <p>Um zurück zu kommen können Sie:</p>
           <ul class="list list-bullet">
-            <li>ewch nôl i'r gwasanaeth oeddech yn ei ddefnyddio</li>
-            <li>gwiriwch am e-bost gan y darparwr hunaniaeth a ddewiswyd gennych</li>
-            <li>rhowch nod tudalen yma</li>
+            <li>Zurückgehen zu der Organisation, die Sie nutzen</li>
+            <li>Emails von %{idp_name} überprüfen</li>
+            <li>Diese Seite als Lesezeichen speichern</li>
           </ul>
-          <p>Bydd angen yr e-bost neu'r enw defnyddiwr a'r cyfrinair a ddefnyddiwyd gennych i greu cyfrif.</p>
+          <p>Sie werden Ihre Email oder Ihren Nutzernamen sowie ein Passwort benötigen um einen Account zu erstellen.</p>
       from_resume_link:
-        title: "Dilysu Wedi'i Oedi %{idp_name} - Link"
-        heading: "Mae eich cyfrif hunaniaeth %{idp_name} wedi cael ei arbed"
+        title: "Identitätsbestätigung wurde pausiert %{idp_name} - Link"
+        heading: "Ihr Account bei %{idp_name} wurde gespeichert"
         restart_instructions_html: |
-          <p>I ddychwelyd gallwch:</p>
+          <p>Um zurück zu kommen können Sie:</p>
           <ul class="list list-bullet">
-            <li>ewch nôl i'r gwasanaeth oeddech yn ei ddefnyddio</li>
-            <li>gwiriwch am e-bost gan %{idp_name}</li>
-            <li>rhowch nod tudalen yma</li>
+            <li>Zurückgehen zu der Organisation, die Sie nutzen</li>
+            <li>Emails von %{idp_name} überprüfen</li>
+            <li>Diese Seite als Lesezeichen speichern</li>
           </ul>
-          <p>Bydd angen yr e-bost neu'r enw defnyddiwr a'r cyfrinair a ddefnyddiwyd gennych i greu cyfrif.</p>
+          <p>Sie werden Ihre Email oder Ihren Nutzernamen sowie ein Passwort benötigen um einen Account zu erstellen.</p>
       resume:
-        title: "Parhau i ddilysu gyda %{display_name}"
-        heading: "Parhau i ddilysu gyda %{display_name}"
-        intro: "Bydd angen i chi orffen gwirio'ch hunaniaeth gyda %{display_name} i %{service_name}."
-        continue: "Parhewch gyda %{display_name}"
-        alternatives: "Os nid chi oedd hyn, gallwch:"
-        alternative_new_identity: "creu cyfrif hunaniaeth newydd"
-        alternative_start: "mewngofnodi gyda chwmni ardystiedig arall"
-        alternative_other_ways: "gwelwch ffyrdd eraill i %{service_name}"
+        title: "Identitätsbestätigung fortsetzen mit %{display_name}"
+        heading: "Identitätsbestätigung fortsetzen mit %{display_name}"
+        intro: "Sie müssen Ihre Identitätsbestätigung mit %{display_name} beenden um %{service_name}."
+        continue: "Fortsetzen mit %{display_name}"
+        alternatives: "Falls dies nicht Sie sind, dann können Sie:"
+        alternative_new_identity: "erstellen Sie einen neuen Account"
+        alternative_start: "loggen Sie sich mit einer anderen zertifizierten Organisation ein"
+        alternative_other_ways: "sehen Sie andere Wege um %{service_name}"
     single_idp_journey:
-      title: Parhau gyda %{display_name}
-      heading: Prove your identity with %{display_name}
-      intro: "Bydd %{idp_display_name} yn cadarnhau eich hunaniaeth gyda BUND Verify, a gallwch barhau i %{service_display_name}."
-      continue_button: Profi eich hunaniaeth gyda %{display_name}
-      alternatives: "Gallwch hefyd:"
-      alternative_one: defnyddio cwmni ardystiedig gwahanol
-      alternative_two: gweld ffyrdd eraill i %{service_display_name}
+      title: Fortsetzen mit %{display_name}
+      heading: Bestätigen Sie Ihre Identität mit %{display_name}
+      intro: "%{idp_display_name} wird Ihre Identität mit BUND Verify bestätigen und Sie können dann mit %{service_display_name} fortsetzen."
+      continue_button: Fortsetzen mit %{display_name}
+      alternatives: "Sie können auch:"
+      alternative_one: nutzen Sie eine andere zertifizierte Organisation
+      alternative_two: sehen Sie andere Wege um %{service_display_name}
   errors:
     cookie_expired:
-      title: Mae eich sesiwn wedi amseru allan
-      feedback_message: Defnyddiwch yr %{feedback_link} i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant.
-      feedback: adborth
+      title: Ihre Sitzung ist abgelaufen
+      feedback_message:  Gerne können Sie %{feedback_link} nutzen, um eine Frage zu stellen, einen Problembericht zu senden oder einen Verbesserungsvorschlag anzubringen.
+      feedback: Feedback
     no_cookies:
-      title: Cwcis Ar Goll
+      title: Cookies fehlen
       heading: BUND Verify
-      access_restriction: Gellir ond cael mynediad i BUND Verify o wasanaeth y llywodraeth.
-      read_more_html: 'Darllenwch y <a href="https://www.gov.uk/verify" hreflang="en">Cyflwyniad i BUND Verify</a> am fwy o wybodaeth.'
-      enable_cookies: Os na allwch gael mynediad i BUND Verify o wasanaeth y llywodraeth, dylech alluogi eich cwcis.
+      access_restriction:BUND Verify kann nur durch eine staatliche Dienstleistung genutzt werden.
+      read_more_html: 'Wenn Sie mehr Informationen wollen, können Sie die <a href="https://www.gov.uk/verify">Einleitung zu BUND Verify</a> lesen.'
+      enable_cookies: Falls Sie BUND Verfiy von einer Dienstleistung aus nicht erreichen können, aktivieren Sie bitte Ihre Cookies.
     session_error:
-      title: Mae rhywbeth wedi mynd o’i le
-      heading: Mae angen i chi ddechrau eto
-      security: Am resymau diogelwch, os ydych yn defnyddio’r botwm ‘back’ i ddychwelyd o gwmni ardystiedig, mae’n rhaid i chi ddechrau eto.
-      start_again: Dechrau eto
-      feedback_message: Defnyddiwch yr %{feedback_link} i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant.
-      feedback: adborth
+      title: Ein Problem liegt vor
+      heading: Bitte starten Sie erneut
+      security: Aus Sicherheitsgründen müssen Sie erneut starten, wenn Sie den Zurück-Buttonnutzen um von der Webseite einer zertifizierten Organisation zurück zu kommen.
+      start_again: Bitte starten Sie erneut
+      feedback_message:  Gerne können Sie %{feedback_link} nutzen, um eine Frage zu stellen, einen Problembericht zu senden oder einen Verbesserungsvorschlag anzubringen.
+      feedback: Feedback
     session_timeout:
-      title: Mae eich sesiwn wedi amseru allan
-      return_to_service: Dylech fynd yn ôl at eich gwasanaeth i ddechrau eto.
-      start_again: Dechrau eto
-      feedback_message: Defnyddiwch yr %{feedback_link} i ofyn cwestiwn, hysbysu problem neu awgrymu gwelliant.
-      feedback: adborth
+      title: Ihre Sitzung ist abgelaufen
+      return_to_service: Bitte gehen Sie zurück zu Ihrem Identitätsanbieter und beginnen Sie erneut.
+      start_again: Beginnen Sie erneut
+      feedback_message: Gerne können Sie %{feedback_link} nutzen, um eine Frage zu stellen, einen Problembericht zu senden oder einen Verbesserungsvorschlag anzubringen.
+      feedback: Feedback
     something_went_wrong:
-      title: Mae rhywbeth wedi mynd o’i le
-      heading: Mae’n ddrwg gennym, mae rhywbeth wedi mynd o’i le
-      error_message: Gall hyn fod oherwydd bod eich sesiwn wedi’i amseru allan neu roedd gwall yn y system.
-      start_again: Oherwydd bod hwn yn wasanaeth diogel, bydd angen i chi ddechrau eto.
+      title: Entschuldigung, ein Problem liegt vor
+      heading: Entschuldigung, ein Problem liegt vor.
+      error_message: Dies könnte daran liegen, dass die Sitzung abgelaufen ist oder ein Systemfehler vorliegt.
+      start_again: Da dies ein sicherer Identitätsanbieter ist, müssen Sie diesen erneut starten.
     proxy_node_error:
-      start_again: Gan eich bod yn defnyddio gwasanaeth diogel o wlad Ewropeaidd arall, bydd angen i chi fynd yn ôl i'r dudalen lle dechreuoch  ddefnyddio'r gwasanaeth hwnnw.
+      start_again: Weil Sie einen sicheren Identitätsanbieter aus einem anderen europäischen Land nutzen, müssen Sie zurück zu der Seite gehen, von der Sie diesen Identitätsanbieter gestarten haben.
     page_not_found:
-      title: Ni ellir dod o hyd i’r dudalen hon
-      heading: Ni ellir dod o hyd i’r dudalen hon
-      reason_pre: "Gallai hyn fod oherwydd:"
-      reason_one: bod y ddolen rydych wedi clicio arni wedi torri
-      reason_two: rydych wedi rhoi cyfeiriad gwefan anghywir
+      title: Diese Seite ist unauffindbar
+      heading: Diese Seite ist unauffindbar
+      reason_pre: "Dies könnte an folgendem liegen:"
+      reason_one: der angeklickte Link funktioniert nicht
+      reason_two: Sie haben eine falsche Webadresse eingegeben
     eidas_scheme_unavailable:
-      title: Cynllun hunaniaeth ddim ar gael
-      heading: Nid yw eich cynllun hunaniaeth ar gael ar hyn o bryd
-      other_ways: "Ceisiwch eto yn nes ymlaen neu ddewis ffordd arall i "
-      other_ways_link: "profi eich hunaniaeth ar-lein"
-    no_selection: Dylech ateb y cwestiynau
+      title: Identitätsbestätigung nicht verfügbar
+      heading: "Ihre Identitätsbestätigung ist in %{country_name} zurzeit nicht verfügbar"
+      other_ways: "Versuchen Sie es später erneut oder nutzen Sie einen anderen Weg "
+      other_ways_link: "bestätigen Sie Ihre Identität online"
+    no_selection: Bitte beantworte alle Fragen
