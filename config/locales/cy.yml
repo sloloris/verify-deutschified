@@ -356,15 +356,15 @@ cy:
         <p>Diese 5 Organisationen erfüllen die staatlichen Sicherheitsstandarde. Ihnen kann vertraut werden. Die Organisationen dürfen Ihre Daten nicht ohne Ihre Einwilligung für andere Zwecke nutzen.</p>
         <p>Die Verifizierung Ihrer Identität über die Anbieter hat keinen Einfluss auf Ihre Bonität.</p>
     redirect_to_idp_warning:
-      title: Byddwch nawr yn cael eich ailgyfeirio
-      create_account: Crëwch eich cyfrif hunaniaeth %{display_name}
-      continue_website: Parhau i wefan %{display_name}
+      title: Sie werden nun weitergeleitet
+      create_account: Nutzerkonto %{display_name} anlegen
+      continue_website: Weiter zur %{display_name} Webste
       identity_account_use_html: |
-              <p>Byddwch nawr yn gwirio pwy ydych chi ar wefan %{display_name}</p>
-              <p>Byddant yn rhoi cyfrif hunaniaeth i chi y gallwch ei ddefnyddio lle bynnag gwelwch y logo 'GOV.UK Verify' </p>
-      service_use: Yna byddwch yn gallu %{service_name}.
-      other_ways_link: ffyrdd eraill i %{transaction}
-      no_docs_other_ways_message_html: "%{idp_no_docs_requirement}, mae %{other_ways_link}"
+        <p>Sie können Ihre Identität jetzt auf der %{display_name} Website verifizieren.</p>
+        <p>Mit diesem Nutzerkonto können Sie sich überall anmelden, wo das BUND Verify Logo zu sehen ist.</p>
+      service_use: Sie können nun %{service_name}.
+      other_ways_link: "Andere Wege zum %{transaction}"
+      no_docs_other_ways_message_html: "%{idp_no_docs_requirement}, es gibt %{other_ways_link}"
     redirect_to_idp_question:
       title: Cwestiwn ychwanegol
       heading: Dilysu gyda %{display_name}
