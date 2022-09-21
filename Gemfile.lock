@@ -44,8 +44,7 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (7.1.4)
-    arr-pm (0.0.10)
-      cabin (> 0)
+    arr-pm (0.0.12)
     ast (2.4.0)
     autoprefixer-rails (9.5.0)
       execjs
